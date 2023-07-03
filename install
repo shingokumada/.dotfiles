@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# スクリプト実行中にエラーが発生したらプログラムを中止
+set -e
+
+# zshのインストール
+if [ ! -f /usr/bin/zsh ]; then
+    sudo apt-get update && apt-get install zsh
+    chsh -s /bin/zsh
+    rm ~/dotfiles/.zshrc ~/
+fi
