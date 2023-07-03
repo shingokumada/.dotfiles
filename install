@@ -1,11 +1,38 @@
 #!/bin/sh
 
-# スクリプト実行中にエラーが発生したらプログラムを中止
+# Abort the program if an error occurs during script execution
 set -e
 
-# zshのインストール
+cd ~ && sudo apt-get update && sudo apt-get upgrade
+
+# macOS
+# if [ ! -f /usr/local/bin/brew ]; then
+#     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# fi
+
+### zsh ###
 if [ ! -f /usr/bin/zsh ]; then
-    sudo apt-get update && apt-get install zsh
+    sudo apt-get install zsh
     chsh -s /bin/zsh
-    rm ~/dotfiles/.zshrc ~/
+    mv ~/dotfiles/config/.zshrc ~/
+    exec zsh
+fi
+
+### tmux ###
+if [ ! -f /usr/bin/tmux ]; then
+    sudo apt-get install tmux
+fi
+
+### neovim, Vim Plug ###
+if [ ! -f /usr/bin/nvim ]; then
+    sudo apt-get install neovim
+    sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
+    if [ ! -d ~/.config ]; then
+        mkdir ~/.config
+    elif [ ! -d ~/.config/nvim ]; then
+        mkdir ~/.config/nvim
+    fi
+    mv ~/dotfiles/config/init.vim ~/.config/nvim/
 fi
