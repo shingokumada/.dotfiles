@@ -1,12 +1,21 @@
-set shell=/bin/zsh     " コマンドの歳にはzshを使う
-set shiftwidth=4       " indentの幅
-set tabstop=4          " タブに変換されるサイズ
-set expandtab          " タブの入力の際にスペース
-set textwidth=0        " ワードラッピングなし
-set autoindent         " 自動インデント :set pasteで解除
-set hlsearch           " Searchのハイライト
-set clipboard=unnamed  " クリップボードへの登録
-syntax on              " SyntaxをEnable
+" command uses zsh
+set shell=/bin/zsh
+" indent
+set shiftwidth=4
+" tab
+set tabstop=4
+" space when entering tab
+set expandtab
+" no word wrapping
+set textwidth=0
+" auto indent :set paste cancel
+set autoindent
+" Search highlights
+set hlsearch
+" Registration to Clipboard
+set clipboard=unnamed
+" Syntax on
+syntax on
 
 " ------------------------ vim Plug --------------------------
 

@@ -5,10 +5,13 @@ set -e
 
 cd ~ && sudo apt-get update && sudo apt-get upgrade
 
-# macOS
+########################################################### Mac ###########################################################
+
 # if [ ! -f /usr/local/bin/brew ]; then
 #     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # fi
+
+########################################################### WSL ###########################################################
 
 ### zsh ###
 if [ ! -f /usr/bin/zsh ]; then
@@ -38,4 +41,4 @@ if [ ! -f /usr/bin/nvim ]; then
     mv ~/dotfiles/config/init.vim ~/.config/nvim/
 fi
 
-rm -f ~/dotfiles
+rm -ri ~/dotfiles
