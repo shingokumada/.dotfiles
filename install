@@ -21,6 +21,7 @@ fi
 ### tmux ###
 if [ ! -f /usr/bin/tmux ]; then
     sudo apt-get install tmux
+    mv ~/dotfiles/config/.tmux.conf ~/
 fi
 
 ### neovim, Vim Plug ###
@@ -36,3 +37,5 @@ if [ ! -f /usr/bin/nvim ]; then
     fi
     mv ~/dotfiles/config/init.vim ~/.config/nvim/
 fi
+
+rm -f ~/dotfiles
