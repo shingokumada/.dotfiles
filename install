@@ -21,10 +21,10 @@ if [ ! -f /usr/bin/zsh ]; then
     mv ~/dotfiles/config/.zshrc ~/
     # oh-my-zsh
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-    cat ~/.zshrc.pre-oh-my-zsh >> ~/.zshrc
+    cat ~/.zshrc.pre-oh-my-zsh >>~/.zshrc
     rm ~/.zshrc.pre-oh-my-zsh
     # antigen
-    curl -L git.io/antigen > antigen.zsh
+    curl -L git.io/antigen >antigen.zsh
     exec zsh
 fi
 
@@ -47,5 +47,3 @@ if [ ! -f /usr/bin/nvim ]; then
     fi
     mv ~/dotfiles/config/init.vim ~/.config/nvim/
 fi
-
-rm -r ~/dotfiles
