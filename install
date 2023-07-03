@@ -13,11 +13,18 @@ cd ~ && sudo apt-get update && sudo apt-get upgrade
 
 ########################################################### WSL ###########################################################
 
-### zsh ###
+### zsh, oh-my-zsh, antigen ###
 if [ ! -f /usr/bin/zsh ]; then
+    # zsh
     sudo apt-get install zsh
     chsh -s /bin/zsh
     mv ~/dotfiles/config/.zshrc ~/
+    # oh-my-zsh
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    cat ~/.zshrc.pre-oh-my-zsh >> ~/.zshrc
+    rm ~/.zshrc.pre-oh-my-zsh
+    # antigen
+    curl -L git.io/antigen > antigen.zsh
     exec zsh
 fi
 
@@ -41,4 +48,4 @@ if [ ! -f /usr/bin/nvim ]; then
     mv ~/dotfiles/config/init.vim ~/.config/nvim/
 fi
 
-rm -ri ~/dotfiles
+rm -r ~/dotfiles
