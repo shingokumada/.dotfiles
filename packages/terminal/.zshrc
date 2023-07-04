@@ -12,6 +12,8 @@ setopt pushd_ignore_dups
 setopt share_history
 setopt inc_append_history
 
+# Path to your oh-my-zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
 export HISTFILE=/.zsh_history
 export HISTSIZE=100000
 export SAVEHIST=100000
@@ -33,9 +35,11 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Load the theme.
 antigen theme robbyrussell
-
 antigen apply
 
 ### Node.js ###
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
+
+### Homebrew ###
+export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"

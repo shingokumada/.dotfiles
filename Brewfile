@@ -1,2 +1,5 @@
 brew "stow"
-
+brew "zsh"
+brew "neovim"
+brew "tmux"
+brew "antigen"

@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# Abort the program if an error occurs during script execution
+set -e
+
+cd
+
+if [ ! -f /usr/local/bin/brew ]; then
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+
+brew bundle -v --file=~/dotfiles/Brewfile
+
+stow -v -d ./dotfiles/packages -t ~ terminal editor
+
+exec $SHELL -l
