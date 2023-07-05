@@ -4,7 +4,7 @@
 
 - **GNU stow**
 
-- **Homebrew Bundle**
+- **[Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle)**
 
 # WSL
 ```sh
