@@ -8,7 +8,7 @@
 
 **installed apps :**
 
-See my [Brewiwfile]()
+See my [Brewfile]()
 
 # WSL
 ```sh
