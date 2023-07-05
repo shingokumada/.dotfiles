@@ -1,5 +1,7 @@
 # dotfiles
 
+**Bundled plug-ins comply with their respective licenses. Other scripts created by shingo-kumada are under the MIT license.**
+
 **dotfile managed whidth :**
 
 - **[GNU stow](https://www.gnu.org/software/stow/)**
