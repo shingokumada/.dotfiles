@@ -7,6 +7,8 @@
 - **[GNU stow](https://www.gnu.org/software/stow/)**
 
 - **[Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle)**
+  
+- **[asdf](https://asdf-vm.com/)**
 
 **installed apps :**
 
