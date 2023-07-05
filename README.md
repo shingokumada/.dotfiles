@@ -2,7 +2,9 @@
 
 **dotfile managed whidth**
 
-- GNU stow
+- **GNU stow**
+
+- **Homebrew Bundle**
 
 # WSL
 ```sh
