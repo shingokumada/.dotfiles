@@ -8,7 +8,7 @@
 
 **installed apps :**
 
-See my [Brewfile]()
+**See my [Brewfile](https://github.com/shingo-kumada/dotfiles/blob/master/Brewfile)**
 
 # WSL
 ```sh
