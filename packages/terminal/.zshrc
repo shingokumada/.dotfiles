@@ -22,7 +22,7 @@ export SAVEHIST=100000
 PROMPT='%c %#'
 
 ### antigen ###
-source ~/antigen.zsh
+source ~/.antigen/antigen.zsh
 antigen use oh-my-zsh
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
@@ -43,3 +43,6 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 
 ### Homebrew ###
 export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"
+
+### asdf ###
+. /home/linuxbrew/.linuxbrew/opt/asdf/libexec/asdf.sh
