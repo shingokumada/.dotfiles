@@ -8,8 +8,6 @@
 
 - **[Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle)**
 
-- **[asdf](https://asdf-vm.com/)**
-
 **installed apps :**
 
 **See my [Brewfile](https://github.com/shingo-kumada/dotfiles/blob/master/Brewfile)**
