@@ -3,7 +3,10 @@
 # Abort the program if an error occurs during script execution
 set -e
 
-cd && sudo apt-get update && sudo apt-get upgrade && sudo apt-get install build-essential
+cd
+
+sudo apt-get update
+sudo apt-get install build-essential curl file git
 
 if [ ! -f /usr/local/bin/brew ]; then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
