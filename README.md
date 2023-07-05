@@ -2,7 +2,7 @@
 
 **dotfile managed whidth**
 
-- **GNU stow**
+- **[GNU stow](https://www.gnu.org/software/stow/)**
 
 - **[Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle)**
 
