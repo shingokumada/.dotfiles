@@ -1,10 +1,14 @@
 # dotfiles
 
-**dotfile managed whidth**
+**dotfile managed whidth :**
 
 - **[GNU stow](https://www.gnu.org/software/stow/)**
 
 - **[Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle)**
+
+**installed apps :**
+
+See my [Brewiwfile]()
 
 # WSL
 ```sh
