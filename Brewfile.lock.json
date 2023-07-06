@@ -451,45 +451,45 @@
         }
       },
       "deno": {
-        "version": "1.34.3",
+        "version": "1.35.0",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
             "arm64_ventura": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/deno/blobs/sha256:d327941f25f09edfeab0e69f4161cad60f2891a4c61dc56c1a3bdf168272f699",
-              "sha256": "d327941f25f09edfeab0e69f4161cad60f2891a4c61dc56c1a3bdf168272f699"
+              "url": "https://ghcr.io/v2/homebrew/core/deno/blobs/sha256:82c00162a18b169a5850133b88990fb3f9897673f57ad59f66f40f94832f16bc",
+              "sha256": "82c00162a18b169a5850133b88990fb3f9897673f57ad59f66f40f94832f16bc"
             },
             "arm64_monterey": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/deno/blobs/sha256:2cef76aa9785bf1e1ff01e575487f7d9b6c70b21c41ea813a9a7ef5fe714319b",
-              "sha256": "2cef76aa9785bf1e1ff01e575487f7d9b6c70b21c41ea813a9a7ef5fe714319b"
+              "url": "https://ghcr.io/v2/homebrew/core/deno/blobs/sha256:a1c79f181ae9e80fae46a99cf75d8eeb1f0649b0ff1eef38be3e05d9ef58c16e",
+              "sha256": "a1c79f181ae9e80fae46a99cf75d8eeb1f0649b0ff1eef38be3e05d9ef58c16e"
             },
             "arm64_big_sur": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/deno/blobs/sha256:93a68a0eb1c2d31e196ab0b45cadb656acafbd9054af514f6ca16709e0e0a606",
-              "sha256": "93a68a0eb1c2d31e196ab0b45cadb656acafbd9054af514f6ca16709e0e0a606"
+              "url": "https://ghcr.io/v2/homebrew/core/deno/blobs/sha256:14e8b38fdbb90ceba7bcdc55b8ed1b37824c51d479601042d67b905774e2d6cb",
+              "sha256": "14e8b38fdbb90ceba7bcdc55b8ed1b37824c51d479601042d67b905774e2d6cb"
             },
             "ventura": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/deno/blobs/sha256:6167f7d646a764d4b53a981d6d7ce82e045833a57f6d53c33a45c1cf6098963a",
-              "sha256": "6167f7d646a764d4b53a981d6d7ce82e045833a57f6d53c33a45c1cf6098963a"
+              "url": "https://ghcr.io/v2/homebrew/core/deno/blobs/sha256:02d24775cd81b17f55c33a496bfb95367f48b861870562048a17b3d83dbaf52e",
+              "sha256": "02d24775cd81b17f55c33a496bfb95367f48b861870562048a17b3d83dbaf52e"
             },
             "monterey": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/deno/blobs/sha256:b23b251299cf0d4541b1d87f38ded0e58c703656d7b26d493d3e0580b315d326",
-              "sha256": "b23b251299cf0d4541b1d87f38ded0e58c703656d7b26d493d3e0580b315d326"
+              "url": "https://ghcr.io/v2/homebrew/core/deno/blobs/sha256:42ebb6a00bd799f80b1e9fef1b3c53195ff360a3cf97207de3103011365698d1",
+              "sha256": "42ebb6a00bd799f80b1e9fef1b3c53195ff360a3cf97207de3103011365698d1"
             },
             "big_sur": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/deno/blobs/sha256:f841c45292ce97f4cb12ae0ee8dcf93aea80409fba6111aaf074b39ade7ba01f",
-              "sha256": "f841c45292ce97f4cb12ae0ee8dcf93aea80409fba6111aaf074b39ade7ba01f"
+              "url": "https://ghcr.io/v2/homebrew/core/deno/blobs/sha256:be22efcc88f3a6628517196131b7976d3e9df1028fd7a08431aa8cbba1c41921",
+              "sha256": "be22efcc88f3a6628517196131b7976d3e9df1028fd7a08431aa8cbba1c41921"
             },
             "x86_64_linux": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/deno/blobs/sha256:4cb227b5583b60aaa49cd16a9f776f70149efca85303b47062530cf51b41d8e2",
-              "sha256": "4cb227b5583b60aaa49cd16a9f776f70149efca85303b47062530cf51b41d8e2"
+              "url": "https://ghcr.io/v2/homebrew/core/deno/blobs/sha256:0d315088d7decb94a271689b6f86badc77e014fe57d21fc8eeb695c4421478f6",
+              "sha256": "0d315088d7decb94a271689b6f86badc77e014fe57d21fc8eeb695c4421478f6"
             }
           }
         }
