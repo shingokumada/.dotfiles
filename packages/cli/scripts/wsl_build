@@ -20,5 +20,3 @@ fi
 brew bundle -v --file=~/dotfiles/Brewfile
 
 stow -v -d ./dotfiles/packages -t ~ terminal editor
-
-exec $SHELL -l
