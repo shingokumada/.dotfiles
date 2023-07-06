@@ -13,7 +13,6 @@ setopt share_history
 setopt inc_append_history
 
 # Path to your oh-my-zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
 export HISTFILE=/.zsh_history
 export HISTSIZE=100000
 export SAVEHIST=100000
@@ -32,6 +31,7 @@ antigen bundle command-not-found
 
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-autosuggestions
 
 # Load the theme.
 antigen theme robbyrussell

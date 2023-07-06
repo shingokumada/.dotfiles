@@ -1,4 +1,5 @@
 brew "antigen"
+brew "asdf"
 brew "curl"
 brew "deno"
 brew "git"
