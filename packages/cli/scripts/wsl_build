@@ -20,5 +20,7 @@ brew bundle -v --file=~/dotfiles/Brewfile
 
 stow -v -d ./dotfiles/packages -t ~ terminal editor
 
+chsh -s /home/linuxbrew/.linuxbrew/bin/zsh
+
 exec $SHELL -l
 
