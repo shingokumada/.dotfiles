@@ -20,7 +20,7 @@ if [ ! -f /home/linuxbrew/.linuxbrew/bin/brew ]; then
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
     # After that, manage git packages with linuxbrew.
-    sudo apt-get purge -y git
+    sudo apt-get purge git
 fi
 
 brew bundle -v --file=~/dotfiles/Brewfile
@@ -31,3 +31,5 @@ stow -v -d ./dotfiles/packages -t ~ zsh tmux neovim
 command -v zsh | sudo tee -a /etc/shells
 sudo chsh -s "$(command -v zsh)" "${USER}"
 exec $SHELL -l
+
+cat
