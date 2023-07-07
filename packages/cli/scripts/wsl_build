@@ -9,7 +9,7 @@ sudo apt-get update && sudo apt-get upgrade
 
 ### linuxbrew install ###
 if [ ! -f /home/linuxbrew/.linuxbrew/bin/brew ]; then
-    sudo apt-get install -y build-essential procps curl file git"
+    sudo apt-get install -y build-essential procps curl file git
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
     # Add Homebrew to bash shell profile script.
@@ -20,7 +20,7 @@ if [ ! -f /home/linuxbrew/.linuxbrew/bin/brew ]; then
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
     # After that, manage git packages with linuxbrew.
-    sudo apt-get purge git
+    sudo apt-get purge -y git
 fi
 
 brew bundle -v --file=~/dotfiles/Brewfile
@@ -31,5 +31,3 @@ stow -v -d ./dotfiles/packages -t ~ zsh tmux neovim
 command -v zsh | sudo tee -a /etc/shells
 sudo chsh -s "$(command -v zsh)" "${USER}"
 exec $SHELL -l
-
-cat
