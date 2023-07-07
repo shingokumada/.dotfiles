@@ -1,5 +1,5 @@
 #-- START ZCACHE GENERATED FILE
-#-- GENERATED: Thu Jul  6 21:03:13 JST 2023
+#-- GENERATED: Fri Jul  7 15:01:36 JST 2023
 #-- ANTIGEN v2.2.2
 _antigen () {
 	local -a _1st_arguments
@@ -32,11 +32,11 @@ _antigen () {
 }
 antigen () {
   local MATCH MBEGIN MEND
-  [[ "$ZSH_EVAL_CONTEXT" =~ "toplevel:*" || "$ZSH_EVAL_CONTEXT" =~ "cmdarg:*" ]] && source "/home/shingo/dotfiles/packages/terminal/.antigen/antigen.zsh" && eval antigen $@;
+  [[ "$ZSH_EVAL_CONTEXT" =~ "toplevel:*" || "$ZSH_EVAL_CONTEXT" =~ "cmdarg:*" ]] && source "/home/shingo/dotfiles/packages/zsh/.antigen/antigen.zsh" && eval antigen $@;
   return 0;
 }
 typeset -gaU fpath path
-fpath+=(/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib /home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git /home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip /home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/command-not-found /home/shingo/dotfiles/packages/terminal/.antigen/bundles/zsh-users/zsh-syntax-highlighting /home/shingo/dotfiles/packages/terminal/.antigen/bundles/zsh-users/zsh-autosuggestions) path+=(/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib /home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git /home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip /home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/command-not-found /home/shingo/dotfiles/packages/terminal/.antigen/bundles/zsh-users/zsh-syntax-highlighting /home/shingo/dotfiles/packages/terminal/.antigen/bundles/zsh-users/zsh-autosuggestions)
+fpath+=(/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib /home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git /home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip /home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/command-not-found /home/shingo/dotfiles/packages/zsh/.antigen/bundles/zsh-users/zsh-syntax-highlighting /home/shingo/dotfiles/packages/zsh/.antigen/bundles/zsh-users/zsh-autosuggestions) path+=(/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib /home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git /home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip /home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/command-not-found /home/shingo/dotfiles/packages/zsh/.antigen/bundles/zsh-users/zsh-syntax-highlighting /home/shingo/dotfiles/packages/zsh/.antigen/bundles/zsh-users/zsh-autosuggestions)
 _antigen_compinit () {
   autoload -Uz compinit; compinit -d "/home/shingo/.antigen/.zcompdump"; compdef _antigen antigen
   add-zsh-hook -D precmd _antigen_compinit
@@ -48,32 +48,32 @@ if [[ -n "/home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh" ]]; then
   ZSH="/home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh"; ZSH_CACHE_DIR="/home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/cache/"
 fi
 #--- BUNDLES BEGIN
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib/bzr.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib/cli.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib/clipboard.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib/compfix.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib/completion.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib/correction.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib/diagnostics.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib/directories.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib/functions.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib/git.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib/grep.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib/history.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib/key-bindings.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib/misc.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib/nvm.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib/prompt_info_functions.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib/spectrum.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib/termsupport.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib/theme-and-appearance.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/lib/vcs_info.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git/git.plugin.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip/pip.plugin.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/command-not-found/command-not-found.plugin.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/zsh-users/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/zsh-users/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh';
-source '/home/shingo/dotfiles/packages/terminal/.antigen/bundles/robbyrussell/oh-my-zsh/themes/robbyrussell.zsh-theme.antigen-compat';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib/bzr.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib/cli.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib/clipboard.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib/compfix.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib/completion.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib/correction.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib/diagnostics.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib/directories.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib/functions.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib/git.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib/grep.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib/history.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib/key-bindings.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib/misc.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib/nvm.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib/prompt_info_functions.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib/spectrum.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib/termsupport.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib/theme-and-appearance.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/lib/vcs_info.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git/git.plugin.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip/pip.plugin.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/command-not-found/command-not-found.plugin.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/zsh-users/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/zsh-users/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh';
+source '/home/shingo/dotfiles/packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh/themes/robbyrussell.zsh-theme.antigen-compat';
 
 #--- BUNDLES END
 typeset -gaU _ANTIGEN_BUNDLE_RECORD; _ANTIGEN_BUNDLE_RECORD=('https://github.com/robbyrussell/oh-my-zsh.git lib plugin true' 'https://github.com/robbyrussell/oh-my-zsh.git plugins/git plugin true' 'https://github.com/robbyrussell/oh-my-zsh.git plugins/pip plugin true' 'https://github.com/robbyrussell/oh-my-zsh.git plugins/command-not-found plugin true' 'https://github.com/zsh-users/zsh-syntax-highlighting.git / plugin true' 'https://github.com/zsh-users/zsh-autosuggestions.git / plugin true' 'https://github.com/robbyrussell/oh-my-zsh.git themes/robbyrussell.zsh-theme theme true')
