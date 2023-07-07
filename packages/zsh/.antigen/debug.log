@@ -7298,3 +7298,848 @@ antigen
 [LOG][1688722749.4735062122] Return from hook antigen-apply with 0
 [LOG][1688722749.4736347198] /home/shingo/.antigen/antigen.zsh:1518
 [LOG][1688722749.4736347198] Return from hook antigen with 0
+[WRN][1688725698.4233741760] /home/shingo/.antigen/antigen.zsh:266
+[WRN][1688725698.4233741760] -antigen-interactive-mode: file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1688725698.4236574173] /home/shingo/.antigen/antigen.zsh:1572
+[WRN][1688725698.4236574173] -antigen-lock-init return code was 0
+[LOG][1688725698.4237136841] /home/shingo/.antigen/antigen.zsh:1574
+[LOG][1688725698.4237136841] LOADED EXTENSION lock EXT
+[WRN][1688725698.4250435829] /home/shingo/.antigen/antigen.zsh:1684
+[WRN][1688725698.4250435829] Init parallel extension PARALLEL
+[WRN][1688725698.4251325130] /home/shingo/.antigen/antigen.zsh:266
+[WRN][1688725698.4251325130] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1688725698.4251842499] /home/shingo/.antigen/antigen.zsh:1572
+[WRN][1688725698.4251842499] -antigen-parallel-init return code was 0
+[LOG][1688725698.4252517223] /home/shingo/.antigen/antigen.zsh:1574
+[LOG][1688725698.4252517223] LOADED EXTENSION parallel EXT
+[WRN][1688725698.4252965450] /home/shingo/.antigen/antigen.zsh:1692
+[WRN][1688725698.4252965450] Exec parallel extension PARALLEL
+[WRN][1688725698.4254503250] /home/shingo/.antigen/antigen.zsh:266
+[WRN][1688725698.4254503250] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1688725698.4255208969] /home/shingo/.antigen/antigen.zsh:1572
+[WRN][1688725698.4255208969] -antigen-defer-init return code was 0
+[LOG][1688725698.4255518913] /home/shingo/.antigen/antigen.zsh:1574
+[LOG][1688725698.4255518913] LOADED EXTENSION defer EXT
+[WRN][1688725698.4262497425] /home/shingo/.antigen/antigen.zsh:266
+[WRN][1688725698.4262497425] -antigen-interactive-mode: file:file:shfunc:shfunc:shfunc:eval:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[WRN][1688725698.4264032841] /home/shingo/.antigen/antigen.zsh:1572
+[WRN][1688725698.4264032841] -antigen-cache-init return code was 0
+[LOG][1688725698.4264385700] /home/shingo/.antigen/antigen.zsh:1574
+[LOG][1688725698.4264385700] LOADED EXTENSION cache EXT
+[WRN][1688725698.4277038574] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4277038574] Updated meta: target antigen mode once type pre called 1
+[WRN][1688725698.4277851582] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4277851582] Processing hooks: antigen-lock
+[WRN][1688725698.4278185368] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4278185368] Pre hook: antigen-lock use oh-my-zsh
+[LOG][1688725698.4278469086] /home/shingo/.antigen/antigen.zsh:1658
+[LOG][1688725698.4278469086] antigen-lock called
+[WRN][1688725698.4278755188] /home/shingo/.antigen/antigen.zsh:1669
+[WRN][1688725698.4278755188] Creating antigen-lock file at /home/shingo/.antigen/.lock
+[WRN][1688725698.4296278954] /home/shingo/.antigen/antigen.zsh:1505
+[WRN][1688725698.4296278954] -antigen-hook-antigen use oh-my-zsh
+[WRN][1688725698.4317193031] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4317193031] Updated meta: target antigen-bundle mode repeat type replace called 1
+[WRN][1688725698.4318530560] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4318530560] Updated meta: target antigen-bundle mode repeat type pre called 1
+[WRN][1688725698.4318950176] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4318950176] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1688725698.4319248199] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4319248199] Pre hook: antigen-bundle-cached --loc=lib
+[WRN][1688725698.4319765568] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4319765568] Replace hook: antigen-bundle-defer --loc=lib
+[WRN][1688725698.4320189953] /home/shingo/.antigen/antigen.zsh:1500
+[WRN][1688725698.4320189953] antigen-bundle-defer shortcircuited
+[LOG][1688725698.4321489334] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4321489334] Return from hook antigen with 0
+[WRN][1688725698.4323825836] /home/shingo/.antigen/antigen.zsh:1462
+[WRN][1688725698.4323825836] Ignoring hook due to mode once: antigen-lock
+[WRN][1688725698.4324810505] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4324810505] Processing hooks: antigen-lock
+[WRN][1688725698.4325275421] /home/shingo/.antigen/antigen.zsh:1505
+[WRN][1688725698.4325275421] -antigen-hook-antigen bundle git
+[WRN][1688725698.4326350689] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4326350689] Updated meta: target antigen-bundle mode repeat type replace called 2
+[WRN][1688725698.4327116013] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4327116013] Updated meta: target antigen-bundle mode repeat type pre called 2
+[WRN][1688725698.4327542782] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4327542782] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1688725698.4327802658] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4327802658] Pre hook: antigen-bundle-cached git
+[WRN][1688725698.4328343868] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4328343868] Replace hook: antigen-bundle-defer git
+[WRN][1688725698.4328727722] /home/shingo/.antigen/antigen.zsh:1500
+[WRN][1688725698.4328727722] antigen-bundle-defer shortcircuited
+[LOG][1688725698.4329237938] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4329237938] Return from hook antigen with 0
+[WRN][1688725698.4330108166] /home/shingo/.antigen/antigen.zsh:1462
+[WRN][1688725698.4330108166] Ignoring hook due to mode once: antigen-lock
+[WRN][1688725698.4330632687] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4330632687] Processing hooks: antigen-lock
+[WRN][1688725698.4331018925] /home/shingo/.antigen/antigen.zsh:1505
+[WRN][1688725698.4331018925] -antigen-hook-antigen bundle pip
+[WRN][1688725698.4331753254] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4331753254] Updated meta: target antigen-bundle mode repeat type replace called 3
+[WRN][1688725698.4332630634] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4332630634] Updated meta: target antigen-bundle mode repeat type pre called 3
+[WRN][1688725698.4332964420] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4332964420] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1688725698.4333224297] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4333224297] Pre hook: antigen-bundle-cached pip
+[WRN][1688725698.4333810806] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4333810806] Replace hook: antigen-bundle-defer pip
+[WRN][1688725698.4334161282] /home/shingo/.antigen/antigen.zsh:1500
+[WRN][1688725698.4334161282] antigen-bundle-defer shortcircuited
+[LOG][1688725698.4334871769] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4334871769] Return from hook antigen with 0
+[WRN][1688725698.4335966110] /home/shingo/.antigen/antigen.zsh:1462
+[WRN][1688725698.4335966110] Ignoring hook due to mode once: antigen-lock
+[WRN][1688725698.4336273670] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4336273670] Processing hooks: antigen-lock
+[WRN][1688725698.4336569309] /home/shingo/.antigen/antigen.zsh:1505
+[WRN][1688725698.4336569309] -antigen-hook-antigen bundle command-not-found
+[WRN][1688725698.4337241650] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4337241650] Updated meta: target antigen-bundle mode repeat type replace called 4
+[WRN][1688725698.4338266850] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4338266850] Updated meta: target antigen-bundle mode repeat type pre called 4
+[WRN][1688725698.4338636398] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4338636398] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1688725698.4338891506] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4338891506] Pre hook: antigen-bundle-cached command-not-found
+[WRN][1688725698.4339375496] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4339375496] Replace hook: antigen-bundle-defer command-not-found
+[WRN][1688725698.4339742661] /home/shingo/.antigen/antigen.zsh:1500
+[WRN][1688725698.4339742661] antigen-bundle-defer shortcircuited
+[LOG][1688725698.4340219498] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4340219498] Return from hook antigen with 0
+[WRN][1688725698.4341206551] /home/shingo/.antigen/antigen.zsh:1462
+[WRN][1688725698.4341206551] Ignoring hook due to mode once: antigen-lock
+[WRN][1688725698.4341640472] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4341640472] Processing hooks: antigen-lock
+[WRN][1688725698.4341940880] /home/shingo/.antigen/antigen.zsh:1505
+[WRN][1688725698.4341940880] -antigen-hook-antigen bundle zsh-users/zsh-syntax-highlighting
+[WRN][1688725698.4342744350] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4342744350] Updated meta: target antigen-bundle mode repeat type replace called 5
+[WRN][1688725698.4343667030] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4343667030] Updated meta: target antigen-bundle mode repeat type pre called 5
+[WRN][1688725698.4344053268] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4344053268] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1688725698.4344310760] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4344310760] Pre hook: antigen-bundle-cached zsh-users/zsh-syntax-highlighting
+[WRN][1688725698.4344751835] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4344751835] Replace hook: antigen-bundle-defer zsh-users/zsh-syntax-highlighting
+[WRN][1688725698.4345114231] /home/shingo/.antigen/antigen.zsh:1500
+[WRN][1688725698.4345114231] antigen-bundle-defer shortcircuited
+[LOG][1688725698.4345591068] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4345591068] Return from hook antigen with 0
+[WRN][1688725698.4346277714] /home/shingo/.antigen/antigen.zsh:1462
+[WRN][1688725698.4346277714] Ignoring hook due to mode once: antigen-lock
+[WRN][1688725698.4346740246] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4346740246] Processing hooks: antigen-lock
+[WRN][1688725698.4347097874] /home/shingo/.antigen/antigen.zsh:1505
+[WRN][1688725698.4347097874] -antigen-hook-antigen bundle zsh-users/zsh-autosuggestions
+[WRN][1688725698.4347910881] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4347910881] Updated meta: target antigen-bundle mode repeat type replace called 6
+[WRN][1688725698.4348917007] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4348917007] Updated meta: target antigen-bundle mode repeat type pre called 6
+[WRN][1688725698.4349274635] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4349274635] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1688725698.4349527359] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4349527359] Pre hook: antigen-bundle-cached zsh-users/zsh-autosuggestions
+[WRN][1688725698.4349963665] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4349963665] Replace hook: antigen-bundle-defer zsh-users/zsh-autosuggestions
+[WRN][1688725698.4350321293] /home/shingo/.antigen/antigen.zsh:1500
+[WRN][1688725698.4350321293] antigen-bundle-defer shortcircuited
+[LOG][1688725698.4350781441] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4350781441] Return from hook antigen with 0
+[WRN][1688725698.4351675510] /home/shingo/.antigen/antigen.zsh:1462
+[WRN][1688725698.4351675510] Ignoring hook due to mode once: antigen-lock
+[WRN][1688725698.4352207184] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4352207184] Processing hooks: antigen-lock
+[WRN][1688725698.4352645874] /home/shingo/.antigen/antigen.zsh:1505
+[WRN][1688725698.4352645874] -antigen-hook-antigen theme robbyrussell
+[WRN][1688725698.4366219044] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4366219044] Updated meta: target antigen-bundle mode repeat type replace called 7
+[WRN][1688725698.4367256165] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4367256165] Updated meta: target antigen-bundle mode repeat type pre called 7
+[WRN][1688725698.4367737770] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4367737770] Processing hooks: antigen-bundle-defer antigen-bundle-cached
+[WRN][1688725698.4368021488] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4368021488] Pre hook: antigen-bundle-cached --loc=themes/robbyrussell --btype=theme
+[WRN][1688725698.4368531704] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4368531704] Replace hook: antigen-bundle-defer --loc=themes/robbyrussell --btype=theme
+[WRN][1688725698.4368929863] /home/shingo/.antigen/antigen.zsh:1500
+[WRN][1688725698.4368929863] antigen-bundle-defer shortcircuited
+[LOG][1688725698.4369609356] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4369609356] Return from hook antigen with 0
+[WRN][1688725698.4370634556] /home/shingo/.antigen/antigen.zsh:1462
+[WRN][1688725698.4370634556] Ignoring hook due to mode once: antigen-lock
+[WRN][1688725698.4371118546] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4371118546] Processing hooks: antigen-lock
+[WRN][1688725698.4371466637] /home/shingo/.antigen/antigen.zsh:1505
+[WRN][1688725698.4371466637] -antigen-hook-antigen apply
+[WRN][1688725698.4372239113] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4372239113] Updated meta: target antigen-apply mode once type post called 1
+[WRN][1688725698.4372892380] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4372892380] Updated meta: target antigen-apply mode once type pre called 1
+[WRN][1688725698.4373569489] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4373569489] Updated meta: target antigen-apply mode once type replace called 1
+[WRN][1688725698.4374237061] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4374237061] Updated meta: target antigen-apply mode once type pre called 1
+[WRN][1688725698.4374895096] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4374895096] Updated meta: target antigen-apply mode once type post called 1
+[WRN][1688725698.4375414848] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4375414848] Processing hooks: antigen-apply-lock antigen-apply-parallel antigen-apply-parallel-execute antigen-apply-defer antigen-apply-cached
+[WRN][1688725698.4375724792] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4375724792] Pre hook: antigen-apply-parallel
+[WRN][1688725698.4375994205] /home/shingo/.antigen/antigen.zsh:1744
+[WRN][1688725698.4375994205] Parallel pre-apply PARALLEL PRE-APPLY
+[WRN][1688725698.4376766682] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4376766682] Pre hook: antigen-apply-defer
+[WRN][1688725698.4377222061] /home/shingo/.antigen/antigen.zsh:1623
+[WRN][1688725698.4377222061] Defer pre-apply DEFER PRE-APPLY
+[LOG][1688725698.4378054142] /home/shingo/.antigen/antigen.zsh:1629
+[LOG][1688725698.4378054142] Processing deferred bundle: --loc=lib DEFER
+[WRN][1688725698.4378910065] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4378910065] Updated meta: target antigen-bundle mode repeat type pre called 8
+[WRN][1688725698.4379599094] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4379599094] Updated meta: target antigen-bundle mode repeat type replace called 1
+[WRN][1688725698.4380118847] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4380118847] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1688725698.4380426407] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4380426407] Pre hook: antigen-bundle-cached --loc=lib
+[WRN][1688725698.4380879402] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4380879402] Replace hook: antigen-bundle-parallel --loc=lib
+[TRA][1688725698.4381186962] /home/shingo/.zshrc:1748
+[TRA][1688725698.4381186962] antigen-bundle-parallel: --loc=lib PARALLEL
+[TRA][1688725698.4381186962] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/shingo/.zshrc
+[WRN][1688725698.4381587505] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4381587505] Replaced hooked function.
+[LOG][1688725698.4381875992] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4381875992] Return from hook antigen-bundle with 0
+[LOG][1688725698.4382257462] /home/shingo/.antigen/antigen.zsh:1629
+[LOG][1688725698.4382257462] Processing deferred bundle: git DEFER
+[WRN][1688725698.4382843971] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4382843971] Updated meta: target antigen-bundle mode repeat type pre called 9
+[WRN][1688725698.4383473396] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4383473396] Updated meta: target antigen-bundle mode repeat type replace called 2
+[WRN][1688725698.4384000301] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4384000301] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1688725698.4384305477] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4384305477] Pre hook: antigen-bundle-cached git
+[WRN][1688725698.4384741783] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4384741783] Replace hook: antigen-bundle-parallel git
+[TRA][1688725698.4385020733] /home/shingo/.zshrc:1748
+[TRA][1688725698.4385020733] antigen-bundle-parallel: git PARALLEL
+[TRA][1688725698.4385020733] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/shingo/.zshrc
+[WRN][1688725698.4385392666] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4385392666] Replaced hooked function.
+[LOG][1688725698.4385643005] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4385643005] Return from hook antigen-bundle with 0
+[LOG][1688725698.4386007786] /home/shingo/.antigen/antigen.zsh:1629
+[LOG][1688725698.4386007786] Processing deferred bundle: pip DEFER
+[WRN][1688725698.4386577606] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4386577606] Updated meta: target antigen-bundle mode repeat type pre called 10
+[WRN][1688725698.4387195110] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4387195110] Updated meta: target antigen-bundle mode repeat type replace called 3
+[WRN][1688725698.4387712479] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4387712479] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1688725698.4388020039] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4388020039] Pre hook: antigen-bundle-cached pip
+[WRN][1688725698.4388446808] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4388446808] Replace hook: antigen-bundle-parallel pip
+[TRA][1688725698.4388718605] /home/shingo/.zshrc:1748
+[TRA][1688725698.4388718605] antigen-bundle-parallel: pip PARALLEL
+[TRA][1688725698.4388718605] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/shingo/.zshrc
+[WRN][1688725698.4389076233] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4389076233] Replaced hooked function.
+[LOG][1688725698.4389324188] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4389324188] Return from hook antigen-bundle with 0
+[LOG][1688725698.4389686584] /home/shingo/.antigen/antigen.zsh:1629
+[LOG][1688725698.4389686584] Processing deferred bundle: command-not-found DEFER
+[WRN][1688725698.4390261173] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4390261173] Updated meta: target antigen-bundle mode repeat type pre called 11
+[WRN][1688725698.4390876293] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4390876293] Updated meta: target antigen-bundle mode repeat type replace called 4
+[WRN][1688725698.4391391277] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4391391277] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1688725698.4391691685] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4391691685] Pre hook: antigen-bundle-cached command-not-found
+[WRN][1688725698.4392125607] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4392125607] Replace hook: antigen-bundle-parallel command-not-found
+[TRA][1688725698.4392426014] /home/shingo/.zshrc:1748
+[TRA][1688725698.4392426014] antigen-bundle-parallel: command-not-found PARALLEL
+[TRA][1688725698.4392426014] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/shingo/.zshrc
+[WRN][1688725698.4392793179] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4392793179] Replaced hooked function.
+[LOG][1688725698.4393038750] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4393038750] Return from hook antigen-bundle with 0
+[LOG][1688725698.4393408298] /home/shingo/.antigen/antigen.zsh:1629
+[LOG][1688725698.4393408298] Processing deferred bundle: zsh-users/zsh-syntax-highlighting DEFER
+[WRN][1688725698.4393992424] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4393992424] Updated meta: target antigen-bundle mode repeat type pre called 12
+[WRN][1688725698.4394624233] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4394624233] Updated meta: target antigen-bundle mode repeat type replace called 5
+[WRN][1688725698.4395141602] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4395141602] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1688725698.4395444393] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4395444393] Pre hook: antigen-bundle-cached zsh-users/zsh-syntax-highlighting
+[WRN][1688725698.4395895004] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4395895004] Replace hook: antigen-bundle-parallel zsh-users/zsh-syntax-highlighting
+[TRA][1688725698.4396176338] /home/shingo/.zshrc:1748
+[TRA][1688725698.4396176338] antigen-bundle-parallel: zsh-users/zsh-syntax-highlighting PARALLEL
+[TRA][1688725698.4396176338] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/shingo/.zshrc
+[WRN][1688725698.4396555424] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4396555424] Replaced hooked function.
+[LOG][1688725698.4396803379] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4396803379] Return from hook antigen-bundle with 0
+[LOG][1688725698.4397180080] /home/shingo/.antigen/antigen.zsh:1629
+[LOG][1688725698.4397180080] Processing deferred bundle: zsh-users/zsh-autosuggestions DEFER
+[WRN][1688725698.4397759438] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4397759438] Updated meta: target antigen-bundle mode repeat type pre called 13
+[WRN][1688725698.4398369789] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4398369789] Updated meta: target antigen-bundle mode repeat type replace called 6
+[WRN][1688725698.4398880005] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4398880005] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1688725698.4399182796] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4399182796] Pre hook: antigen-bundle-cached zsh-users/zsh-autosuggestions
+[WRN][1688725698.4399621487] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4399621487] Replace hook: antigen-bundle-parallel zsh-users/zsh-autosuggestions
+[TRA][1688725698.4399893284] /home/shingo/.zshrc:1748
+[TRA][1688725698.4399893284] antigen-bundle-parallel: zsh-users/zsh-autosuggestions PARALLEL
+[TRA][1688725698.4399893284] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/shingo/.zshrc
+[WRN][1688725698.4400258064] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4400258064] Replaced hooked function.
+[LOG][1688725698.4400503635] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4400503635] Return from hook antigen-bundle with 0
+[LOG][1688725698.4400870800] /home/shingo/.antigen/antigen.zsh:1629
+[LOG][1688725698.4400870800] Processing deferred bundle: --loc=themes/robbyrussell --btype=theme DEFER
+[WRN][1688725698.4401686192] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4401686192] Updated meta: target antigen-bundle mode repeat type pre called 14
+[WRN][1688725698.4402334690] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4402334690] Updated meta: target antigen-bundle mode repeat type replace called 7
+[WRN][1688725698.4402847290] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4402847290] Processing hooks: antigen-bundle-cached antigen-bundle-parallel
+[WRN][1688725698.4403147697] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4403147697] Pre hook: antigen-bundle-cached --loc=themes/robbyrussell --btype=theme
+[WRN][1688725698.4403588772] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4403588772] Replace hook: antigen-bundle-parallel --loc=themes/robbyrussell --btype=theme
+[TRA][1688725698.4403862953] /home/shingo/.zshrc:1748
+[TRA][1688725698.4403862953] antigen-bundle-parallel: --loc=themes/robbyrussell --btype=theme PARALLEL
+[TRA][1688725698.4403862953] TRACE
+antigen-bundle-parallel
+-antigen-hook-handler
+antigen-bundle
+antigen-apply-defer
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/shingo/.zshrc
+[WRN][1688725698.4404232502] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4404232502] Replaced hooked function.
+[LOG][1688725698.4404475689] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4404475689] Return from hook antigen-bundle with 0
+[WRN][1688725698.4404988289] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4404988289] Replace hook: antigen-apply-parallel-execute
+[WRN][1688725698.4405250549] /home/shingo/.antigen/antigen.zsh:1756
+[WRN][1688725698.4405250549] Parallel replace-apply PARALLEL REPLACE-APPLY
+[WRN][1688725698.4405915737] /home/shingo/.antigen/antigen.zsh:1695
+[WRN][1688725698.4405915737] Parallel antigen-bundle-parallel-execute PARALLEL
+[WRN][1688725698.4406399727] /home/shingo/.antigen/antigen.zsh:1699
+[WRN][1688725698.4406399727] Gonna install in parallel 7 bundles. PARALLEL
+[WRN][1688725698.4406805038] /home/shingo/.antigen/antigen.zsh:1701
+[WRN][1688725698.4406805038] --loc=lib git pip command-not-found zsh-users/zsh-syntax-highlighting zsh-users/zsh-autosuggestions --loc=themes/robbyrussell --btype=theme PARALLEL
+[WRN][1688725698.4409725666] /home/shingo/.antigen/antigen.zsh:1715
+[WRN][1688725698.4409725666] Bundle robbyrussell/oh-my-zsh already cloned locally. PARALLEL
+[WRN][1688725698.4411990643] /home/shingo/.antigen/antigen.zsh:1715
+[WRN][1688725698.4411990643] Bundle robbyrussell/oh-my-zsh already cloned locally. PARALLEL
+[WRN][1688725698.4414153099] /home/shingo/.antigen/antigen.zsh:1715
+[WRN][1688725698.4414153099] Bundle robbyrussell/oh-my-zsh already cloned locally. PARALLEL
+[WRN][1688725698.4416241646] /home/shingo/.antigen/antigen.zsh:1715
+[WRN][1688725698.4416241646] Bundle robbyrussell/oh-my-zsh already cloned locally. PARALLEL
+[WRN][1688725698.4418346882] /home/shingo/.antigen/antigen.zsh:1715
+[WRN][1688725698.4418346882] Bundle zsh-users/zsh-syntax-highlighting already cloned locally. PARALLEL
+[WRN][1688725698.4420378208] /home/shingo/.antigen/antigen.zsh:1715
+[WRN][1688725698.4420378208] Bundle zsh-users/zsh-autosuggestions already cloned locally. PARALLEL
+[WRN][1688725698.4422328472] /home/shingo/.antigen/antigen.zsh:1715
+[WRN][1688725698.4422328472] Bundle robbyrussell/oh-my-zsh already cloned locally. PARALLEL
+[WRN][1688725698.4423522949] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4423522949] Updated meta: target antigen-bundle mode repeat type pre called 15
+[WRN][1688725698.4424057007] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4424057007] Processing hooks: antigen-bundle-cached
+[WRN][1688725698.4424381256] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4424381256] Pre hook: antigen-bundle-cached --loc=lib
+[WRN][1688725698.4424815178] /home/shingo/.antigen/antigen.zsh:1505
+[WRN][1688725698.4424815178] -antigen-hook-antigen-bundle --loc=lib
+[TRA][1688725698.4425125122] /home/shingo/.antigen/antigen.zsh:1438
+[TRA][1688725698.4425125122] Called antigen-bundle with --loc=lib BUNDLE
+[TRA][1688725698.4425125122] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/shingo/.zshrc
+[WRN][1688725698.4434537888] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4434537888] Updated meta: target -antigen-load-env mode repeat type replace called 1
+[WRN][1688725698.4435660839] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4435660839] Processing hooks: -antigen-load-env-cached
+[WRN][1688725698.4436180592] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4436180592] Replace hook: -antigen-load-env-cached dir /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh btype plugin url https://github.com/robbyrussell/oh-my-zsh.git loc lib name robbyrussell/oh-my-zsh make_local_clone true
+[WRN][1688725698.4437217712] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4437217712] Replaced hooked function.
+[LOG][1688725698.4437727928] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4437727928] Return from hook -antigen-load-env with 0
+[WRN][1688725698.4438936710] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4438936710] Updated meta: target -antigen-load-source mode repeat type replace called 1
+[WRN][1688725698.4439463615] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4439463615] Processing hooks: -antigen-load-source-cached
+[WRN][1688725698.4439976215] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4439976215] Replace hook: -antigen-load-source-cached /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/bzr.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/cli.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/clipboard.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/compfix.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/completion.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/correction.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/diagnostics.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/directories.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/functions.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/git.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/grep.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/history.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/key-bindings.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/misc.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/nvm.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/prompt_info_functions.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/spectrum.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/termsupport.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/theme-and-appearance.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/vcs_info.zsh
+[WRN][1688725698.4441082478] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4441082478] Replaced hooked function.
+[LOG][1688725698.4441680908] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4441680908] Return from hook -antigen-load-source with 0
+[LOG][1688725698.4442565441] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4442565441] Return from hook antigen-bundle with 0
+[WRN][1688725698.4443624020] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4443624020] Updated meta: target antigen-bundle mode repeat type pre called 16
+[WRN][1688725698.4444158077] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4444158077] Processing hooks: antigen-bundle-cached
+[WRN][1688725698.4444465637] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4444465637] Pre hook: antigen-bundle-cached git
+[WRN][1688725698.4444885254] /home/shingo/.antigen/antigen.zsh:1505
+[WRN][1688725698.4444885254] -antigen-hook-antigen-bundle git
+[TRA][1688725698.4445161819] /home/shingo/.antigen/antigen.zsh:1438
+[TRA][1688725698.4445161819] Called antigen-bundle with git BUNDLE
+[TRA][1688725698.4445161819] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/shingo/.zshrc
+[WRN][1688725698.4452297688] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4452297688] Updated meta: target -antigen-load-env mode repeat type replace called 2
+[WRN][1688725698.4453070164] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4453070164] Processing hooks: -antigen-load-env-cached
+[WRN][1688725698.4453542233] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4453542233] Replace hook: -antigen-load-env-cached dir /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh btype plugin url https://github.com/robbyrussell/oh-my-zsh.git loc plugins/git name robbyrussell/oh-my-zsh make_local_clone true
+[WRN][1688725698.4454214573] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4454214573] Replaced hooked function.
+[LOG][1688725698.4454700947] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4454700947] Return from hook -antigen-load-env with 0
+[WRN][1688725698.4456002712] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4456002712] Updated meta: target -antigen-load-source mode repeat type replace called 2
+[WRN][1688725698.4456603527] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4456603527] Processing hooks: -antigen-load-source-cached
+[WRN][1688725698.4457135201] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4457135201] Replace hook: -antigen-load-source-cached /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git/git.plugin.zsh
+[WRN][1688725698.4457726479] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4457726479] Replaced hooked function.
+[LOG][1688725698.4458346367] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4458346367] Return from hook -antigen-load-source with 0
+[LOG][1688725698.4459207058] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4459207058] Return from hook antigen-bundle with 0
+[WRN][1688725698.4460344315] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4460344315] Updated meta: target antigen-bundle mode repeat type pre called 17
+[WRN][1688725698.4460985661] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4460985661] Processing hooks: antigen-bundle-cached
+[WRN][1688725698.4461300373] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4461300373] Pre hook: antigen-bundle-cached pip
+[WRN][1688725698.4461791515] /home/shingo/.antigen/antigen.zsh:1505
+[WRN][1688725698.4461791515] -antigen-hook-antigen-bundle pip
+[TRA][1688725698.4462318420] /home/shingo/.antigen/antigen.zsh:1438
+[TRA][1688725698.4462318420] Called antigen-bundle with pip BUNDLE
+[TRA][1688725698.4462318420] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/shingo/.zshrc
+[WRN][1688725698.4466869831] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4466869831] Updated meta: target -antigen-load-env mode repeat type replace called 3
+[WRN][1688725698.4467625618] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4467625618] Processing hooks: -antigen-load-env-cached
+[WRN][1688725698.4468131065] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4468131065] Replace hook: -antigen-load-env-cached dir /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh btype plugin url https://github.com/robbyrussell/oh-my-zsh.git loc plugins/pip name robbyrussell/oh-my-zsh make_local_clone true
+[WRN][1688725698.4469091892] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4469091892] Replaced hooked function.
+[LOG][1688725698.4469592571] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4469592571] Return from hook -antigen-load-env with 0
+[WRN][1688725698.4470484257] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4470484257] Updated meta: target -antigen-load-source mode repeat type replace called 3
+[WRN][1688725698.4471054077] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4471054077] Processing hooks: -antigen-load-source-cached
+[WRN][1688725698.4471449852] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4471449852] Replace hook: -antigen-load-source-cached /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip/pip.plugin.zsh
+[WRN][1688725698.4471843243] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4471843243] Replaced hooked function.
+[LOG][1688725698.4472107887] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4472107887] Return from hook -antigen-load-source with 0
+[LOG][1688725698.4472684860] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4472684860] Return from hook antigen-bundle with 0
+[WRN][1688725698.4473669529] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4473669529] Updated meta: target antigen-bundle mode repeat type pre called 18
+[WRN][1688725698.4474203587] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4474203587] Processing hooks: antigen-bundle-cached
+[WRN][1688725698.4474518299] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4474518299] Pre hook: antigen-bundle-cached command-not-found
+[WRN][1688725698.4474942684] /home/shingo/.antigen/antigen.zsh:1505
+[WRN][1688725698.4474942684] -antigen-hook-antigen-bundle command-not-found
+[TRA][1688725698.4475224018] /home/shingo/.antigen/antigen.zsh:1438
+[TRA][1688725698.4475224018] Called antigen-bundle with command-not-found BUNDLE
+[TRA][1688725698.4475224018] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/shingo/.zshrc
+[WRN][1688725698.4481949806] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4481949806] Updated meta: target -antigen-load-env mode repeat type replace called 4
+[WRN][1688725698.4482800961] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4482800961] Processing hooks: -antigen-load-env-cached
+[WRN][1688725698.4483318329] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4483318329] Replace hook: -antigen-load-env-cached dir /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh btype plugin url https://github.com/robbyrussell/oh-my-zsh.git loc plugins/command-not-found name robbyrussell/oh-my-zsh make_local_clone true
+[WRN][1688725698.4483969212] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4483969212] Replaced hooked function.
+[LOG][1688725698.4484455585] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4484455585] Return from hook -antigen-load-env with 0
+[WRN][1688725698.4485363960] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4485363960] Updated meta: target -antigen-load-source mode repeat type replace called 4
+[WRN][1688725698.4485883713] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4485883713] Processing hooks: -antigen-load-source-cached
+[WRN][1688725698.4486286640] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4486286640] Replace hook: -antigen-load-source-cached /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/command-not-found/command-not-found.plugin.zsh
+[WRN][1688725698.4486694336] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4486694336] Replaced hooked function.
+[LOG][1688725698.4486956596] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4486956596] Return from hook -antigen-load-source with 0
+[LOG][1688725698.4487521648] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4487521648] Return from hook antigen-bundle with 0
+[WRN][1688725698.4488492012] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4488492012] Updated meta: target antigen-bundle mode repeat type pre called 19
+[WRN][1688725698.4489016533] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4489016533] Processing hooks: antigen-bundle-cached
+[WRN][1688725698.4489374161] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4489374161] Pre hook: antigen-bundle-cached zsh-users/zsh-syntax-highlighting
+[WRN][1688725698.4490458965] /home/shingo/.antigen/antigen.zsh:1505
+[WRN][1688725698.4490458965] -antigen-hook-antigen-bundle zsh-users/zsh-syntax-highlighting
+[TRA][1688725698.4490988255] /home/shingo/.antigen/antigen.zsh:1438
+[TRA][1688725698.4490988255] Called antigen-bundle with zsh-users/zsh-syntax-highlighting BUNDLE
+[TRA][1688725698.4490988255] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/shingo/.zshrc
+[WRN][1688725698.4494812489] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4494812489] Updated meta: target -antigen-load-env mode repeat type replace called 5
+[WRN][1688725698.4495503902] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4495503902] Processing hooks: -antigen-load-env-cached
+[WRN][1688725698.4495968819] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4495968819] Replace hook: -antigen-load-env-cached dir /home/shingo/.antigen/bundles/zsh-users/zsh-syntax-highlighting btype plugin url https://github.com/zsh-users/zsh-syntax-highlighting.git loc / name zsh-users/zsh-syntax-highlighting make_local_clone true
+[WRN][1688725698.4496586323] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4496586323] Replaced hooked function.
+[LOG][1688725698.4497044086] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4497044086] Return from hook -antigen-load-env with 0
+[WRN][1688725698.4497900009] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4497900009] Updated meta: target -antigen-load-source mode repeat type replace called 5
+[WRN][1688725698.4498407841] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4498407841] Processing hooks: -antigen-load-source-cached
+[WRN][1688725698.4498796463] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4498796463] Replace hook: -antigen-load-source-cached /home/shingo/.antigen/bundles/zsh-users/zsh-syntax-highlighting///zsh-syntax-highlighting.plugin.zsh
+[WRN][1688725698.4499189854] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4499189854] Replaced hooked function.
+[LOG][1688725698.4499454498] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4499454498] Return from hook -antigen-load-source with 0
+[LOG][1688725698.4500005245] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4500005245] Return from hook antigen-bundle with 0
+[WRN][1688725698.4500956535] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4500956535] Updated meta: target antigen-bundle mode repeat type pre called 20
+[WRN][1688725698.4501473904] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4501473904] Processing hooks: antigen-bundle-cached
+[WRN][1688725698.4501776695] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4501776695] Pre hook: antigen-bundle-cached zsh-users/zsh-autosuggestions
+[WRN][1688725698.4502189159] /home/shingo/.antigen/antigen.zsh:1505
+[WRN][1688725698.4502189159] -antigen-hook-antigen-bundle zsh-users/zsh-autosuggestions
+[TRA][1688725698.4502463341] /home/shingo/.antigen/antigen.zsh:1438
+[TRA][1688725698.4502463341] Called antigen-bundle with zsh-users/zsh-autosuggestions BUNDLE
+[TRA][1688725698.4502463341] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/shingo/.zshrc
+[WRN][1688725698.4505910873] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4505910873] Updated meta: target -antigen-load-env mode repeat type replace called 6
+[WRN][1688725698.4506676197] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4506676197] Processing hooks: -antigen-load-env-cached
+[WRN][1688725698.4507150650] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4507150650] Replace hook: -antigen-load-env-cached dir /home/shingo/.antigen/bundles/zsh-users/zsh-autosuggestions btype plugin url https://github.com/zsh-users/zsh-autosuggestions.git loc / name zsh-users/zsh-autosuggestions make_local_clone true
+[WRN][1688725698.4508590698] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4508590698] Replaced hooked function.
+[LOG][1688725698.4509112835] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4509112835] Return from hook -antigen-load-env with 0
+[WRN][1688725698.4510018826] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4510018826] Updated meta: target -antigen-load-source mode repeat type replace called 6
+[WRN][1688725698.4510538578] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4510538578] Processing hooks: -antigen-load-source-cached
+[WRN][1688725698.4510941505] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4510941505] Replace hook: -antigen-load-source-cached /home/shingo/.antigen/bundles/zsh-users/zsh-autosuggestions///zsh-autosuggestions.plugin.zsh
+[WRN][1688725698.4511351585] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4511351585] Replaced hooked function.
+[LOG][1688725698.4511616230] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4511616230] Return from hook -antigen-load-source with 0
+[LOG][1688725698.4512176514] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4512176514] Return from hook antigen-bundle with 0
+[WRN][1688725698.4513149261] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4513149261] Updated meta: target antigen-bundle mode repeat type pre called 21
+[WRN][1688725698.4513671398] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4513671398] Processing hooks: antigen-bundle-cached
+[WRN][1688725698.4513981342] /home/shingo/.antigen/antigen.zsh:1487
+[WRN][1688725698.4513981342] Pre hook: antigen-bundle-cached --loc=themes/robbyrussell --btype=theme
+[WRN][1688725698.4514403343] /home/shingo/.antigen/antigen.zsh:1505
+[WRN][1688725698.4514403343] -antigen-hook-antigen-bundle --loc=themes/robbyrussell --btype=theme
+[TRA][1688725698.4514787197] /home/shingo/.antigen/antigen.zsh:1438
+[TRA][1688725698.4514787197] Called antigen-bundle with --loc=themes/robbyrussell --btype=theme BUNDLE
+[TRA][1688725698.4514787197] TRACE
+-antigen-hook-antigen-bundle
+-antigen-hook-handler
+antigen-bundle
+antigen-bundle-parallel-execute
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/shingo/.zshrc
+[WRN][1688725698.4518177509] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4518177509] Updated meta: target -antigen-load-env mode repeat type replace called 7
+[WRN][1688725698.4518761635] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4518761635] Processing hooks: -antigen-load-env-cached
+[WRN][1688725698.4519214630] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4519214630] Replace hook: -antigen-load-env-cached dir /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh btype theme url https://github.com/robbyrussell/oh-my-zsh.git loc themes/robbyrussell.zsh-theme name robbyrussell/oh-my-zsh make_local_clone true
+[WRN][1688725698.4519796371] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4519796371] Replaced hooked function.
+[LOG][1688725698.4520242214] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4520242214] Return from hook -antigen-load-env with 0
+[WRN][1688725698.4521086216] /home/shingo/.antigen/antigen.zsh:1469
+[WRN][1688725698.4521086216] Updated meta: target -antigen-load-source mode repeat type replace called 7
+[WRN][1688725698.4521603584] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4521603584] Processing hooks: -antigen-load-source-cached
+[WRN][1688725698.4521992207] /home/shingo/.antigen/antigen.zsh:1498
+[WRN][1688725698.4521992207] Replace hook: -antigen-load-source-cached /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/themes/robbyrussell.zsh-theme
+[WRN][1688725698.4522380829] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.4522380829] Replaced hooked function.
+[LOG][1688725698.4522855282] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4522855282] Return from hook -antigen-load-source with 0
+[LOG][1688725698.4523479939] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.4523479939] Return from hook antigen-bundle with 0
+[WRN][1688725698.4524052143] /home/shingo/.antigen/antigen.zsh:1739
+[WRN][1688725698.4524052143] Parallel install done PARALLEL
+[WRN][1688725698.4525532722] /home/shingo/.antigen/antigen.zsh:1462
+[WRN][1688725698.4525532722] Ignoring hook due to mode once: antigen-apply-lock
+[WRN][1688725698.4526112080] /home/shingo/.antigen/antigen.zsh:1462
+[WRN][1688725698.4526112080] Ignoring hook due to mode once: antigen-apply-parallel
+[WRN][1688725698.4526486397] /home/shingo/.antigen/antigen.zsh:1462
+[WRN][1688725698.4526486397] Ignoring hook due to mode once: antigen-apply-defer
+[WRN][1688725698.4526805878] /home/shingo/.antigen/antigen.zsh:1462
+[WRN][1688725698.4526805878] Ignoring hook due to mode once: antigen-apply-cached
+[WRN][1688725698.4527056217] /home/shingo/.antigen/antigen.zsh:1484
+[WRN][1688725698.4527056217] Processing hooks: antigen-apply-lock antigen-apply-parallel antigen-apply-defer antigen-apply-cached
+[WRN][1688725698.4527349472] /home/shingo/.antigen/antigen.zsh:1505
+[WRN][1688725698.4527349472] -antigen-hook-antigen-apply 
+[LOG][1688725698.4527618885] /home/shingo/.antigen/antigen.zsh:1438
+[LOG][1688725698.4527618885] Called antigen-apply
+[TRA][1688725698.4527857304] /home/shingo/.antigen/antigen.zsh:1439
+[TRA][1688725698.4527857304] Gonna create compdump file @ apply COMPDUMP
+[TRA][1688725698.4527857304] TRACE
+-antigen-hook-antigen-apply
+-antigen-hook-handler
+antigen-apply
+antigen-apply-parallel-execute
+-antigen-hook-handler
+antigen-apply
+-antigen-hook-antigen
+-antigen-hook-handler
+antigen
+/home/shingo/.zshrc
+[LOG][1688725698.6553120613] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.6553120613] Return from hook antigen-apply with 0
+[WRN][1688725698.6554775238] /home/shingo/.antigen/antigen.zsh:1509
+[WRN][1688725698.6554775238] Replaced hooked function.
+[WRN][1688725698.6555163860] /home/shingo/.antigen/antigen.zsh:1513
+[WRN][1688725698.6555163860] Post hook: antigen-apply-lock
+[WRN][1688725698.6555476189] /home/shingo/.antigen/antigen.zsh:1676
+[WRN][1688725698.6555476189] Freeing antigen-lock file at /home/shingo/.antigen/.lock
+[WRN][1688725698.6565368176] /home/shingo/.antigen/antigen.zsh:1513
+[WRN][1688725698.6565368176] Post hook: antigen-apply-cached
+[LOG][1688725698.6566309929] /home/shingo/.antigen/antigen.zsh:1893
+[LOG][1688725698.6566309929] TRACE: /home/shingo/.antigen/antigen.zsh:1514 /home/shingo/.antigen/antigen.zsh:1441 /home/shingo/.antigen/antigen.zsh:1447 /home/shingo/.antigen/antigen.zsh:1506 /home/shingo/.antigen/antigen.zsh:1441 /home/shingo/.zshrc:41 zsh:0
+[LOG][1688725698.6569154263] /home/shingo/.antigen/antigen.zsh:1787
+[LOG][1688725698.6569154263] Gonna generate cache for /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/bzr.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/cli.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/clipboard.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/compfix.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/completion.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/correction.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/diagnostics.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/directories.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/functions.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/git.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/grep.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/history.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/key-bindings.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/misc.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/nvm.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/prompt_info_functions.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/spectrum.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/termsupport.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/theme-and-appearance.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/lib/vcs_info.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git/git.plugin.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip/pip.plugin.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/command-not-found /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/command-not-found/command-not-found.plugin.zsh /home/shingo/.antigen/bundles/zsh-users/zsh-syntax-highlighting// /home/shingo/.antigen/bundles/zsh-users/zsh-syntax-highlighting///zsh-syntax-highlighting.plugin.zsh /home/shingo/.antigen/bundles/zsh-users/zsh-autosuggestions// /home/shingo/.antigen/bundles/zsh-users/zsh-autosuggestions///zsh-autosuggestions.plugin.zsh /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/themes/robbyrussell.zsh-theme /home/shingo/.antigen/bundles/robbyrussell/oh-my-zsh/themes/robbyrussell.zsh-theme
+[LOG][1688725698.6649808884] /home/shingo/.antigen/antigen.zsh:1844
+[LOG][1688725698.6649808884] CHECK_FILES /home/shingo/.zshrc /home/shingo/.zshrc
+[LOG][1688725698.7499744892] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.7499744892] Return from hook antigen-apply with 0
+[LOG][1688725698.7500944138] /home/shingo/.antigen/antigen.zsh:1518
+[LOG][1688725698.7500944138] Return from hook antigen with 0
+[WRN][1688725770.7847776413] /home/shingo/.antigen/antigen.zsh:266
+[WRN][1688725770.7847776413] -antigen-interactive-mode: toplevel:filecode:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[TRA][1688725770.7849476337] /home/shingo/.antigen/antigen.zsh:475
+[TRA][1688725770.7849476337] Gonna create compdump file @ env-setup COMPDUMP
+[TRA][1688725770.7849476337] TRACE
+-antigen-env-setup
+/home/shingo/.antigen/antigen.zsh
+.zshrc
+[TRA][1688725770.8451938629] /home/shingo/.antigen/antigen.zsh:808
+[TRA][1688725770.8451938629] Called antigen-bundle with --loc=lib BUNDLE
+[TRA][1688725770.8451938629] TRACE
+antigen-bundle
+-antigen-use-oh-my-zsh
+antigen-use
+antigen
+.zshrc
+[TRA][1688725770.8460552692] /home/shingo/.antigen/antigen.zsh:808
+[TRA][1688725770.8460552692] Called antigen-bundle with git BUNDLE
+[TRA][1688725770.8460552692] TRACE
+antigen-bundle
+antigen
+.zshrc
+[TRA][1688725770.8464436531] /home/shingo/.antigen/antigen.zsh:808
+[TRA][1688725770.8464436531] Called antigen-bundle with pip BUNDLE
+[TRA][1688725770.8464436531] TRACE
+antigen-bundle
+antigen
+.zshrc
+[TRA][1688725770.8468253613] /home/shingo/.antigen/antigen.zsh:808
+[TRA][1688725770.8468253613] Called antigen-bundle with command-not-found BUNDLE
+[TRA][1688725770.8468253613] TRACE
+antigen-bundle
+antigen
+.zshrc
+[TRA][1688725770.8471662998] /home/shingo/.antigen/antigen.zsh:808
+[TRA][1688725770.8471662998] Called antigen-bundle with zsh-users/zsh-syntax-highlighting BUNDLE
+[TRA][1688725770.8471662998] TRACE
+antigen-bundle
+antigen
+.zshrc
+[TRA][1688725770.8475005627] /home/shingo/.antigen/antigen.zsh:808
+[TRA][1688725770.8475005627] Called antigen-bundle with zsh-users/zsh-autosuggestions BUNDLE
+[TRA][1688725770.8475005627] TRACE
+antigen-bundle
+antigen
+.zshrc
+[TRA][1688725770.8493239880] /home/shingo/.antigen/antigen.zsh:808
+[TRA][1688725770.8493239880] Called antigen-bundle with --loc=themes/robbyrussell --btype=theme BUNDLE
+[TRA][1688725770.8493239880] TRACE
+antigen-bundle
+antigen-theme
+antigen
+.zshrc
+[LOG][1688725770.8498828411] /home/shingo/.antigen/antigen.zsh:785
+[LOG][1688725770.8498828411] Called antigen-apply
+[TRA][1688725770.8499476910] /home/shingo/.antigen/antigen.zsh:789
+[TRA][1688725770.8499476910] Gonna create compdump file @ apply COMPDUMP
+[TRA][1688725770.8499476910] TRACE
+antigen-apply
+antigen
+.zshrc

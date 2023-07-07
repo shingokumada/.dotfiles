@@ -48,3 +48,6 @@ export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"
 
 ### asdf ###
 . /home/linuxbrew/.linuxbrew/opt/asdf/libexec/asdf.sh
+
+### bin ###
+export PATH="$PATH:/home/bin"
