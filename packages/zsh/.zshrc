@@ -2,8 +2,11 @@
 alias vi="nvim"
 alias vim="nvim"
 alias view="nvim -R"
-alias zshconfig="vim ~/.zshrc"
-alias ohmyzsh="vim ~/.oh-my-zsh"
+alias gitconf="vim ~/.gitconfig"
+alias tmuxconf="vim ~/.tmux.conf"
+alias vimconf="vim ~/.config/nvim/init.vim"
+alias zshpro="vim ~/.zprofile"
+alias zshconf="vim ~/.zshrc"
 
 ### Zsh ###
 setopt no_beep
@@ -11,7 +14,7 @@ setopt auto_pushd
 setopt pushd_ignore_dups
 setopt share_history
 setopt inc_append_history
-export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin/zsh"
+# export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin/zsh"
 
 # Path to your oh-my-zsh installation.
 export HISTFILE=/.zsh_history
