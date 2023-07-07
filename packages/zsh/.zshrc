@@ -14,14 +14,13 @@ setopt auto_pushd
 setopt pushd_ignore_dups
 setopt share_history
 setopt inc_append_history
-# export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin/zsh"
 
 # Path to your oh-my-zsh installation.
 export HISTFILE=/.zsh_history
 export HISTSIZE=100000
 export SAVEHIST=100000
 
-### pronpt ###
+# pronpt
 PROMPT='%c %#'
 
 ### antigen ###
