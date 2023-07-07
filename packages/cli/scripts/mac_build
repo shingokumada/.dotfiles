@@ -3,7 +3,7 @@
 # Abort the program if an error occurs during script execution
 set -e
 
-cd
+cd ~
 
 ### Homebrew install ###
 if [ ! -f /usr/local/bin/brew ]; then
