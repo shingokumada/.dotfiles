@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Abort the program if an error occurs during script execution
+# Abort the program if an error occurs during script execution.
 set -e
 
 cd ~
@@ -11,12 +11,22 @@ sudo apt-get update && sudo apt-get upgrade
 if [ ! -f /home/linuxbrew/.linuxbrew/bin/brew ]; then
     sudo apt-get install -y build-essential procps curl file git"
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+    # Add Homebrew to bash shell profile script.
     test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)"
     test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-    test -r ~/.bash_profile && echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.bash_profile
-    echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
+    test -r ~/.bash_profile && echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.bash_profile
+    echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.profile
+
+    # After that, manage git packages with linuxbrew.
+    sudo apt-get purge -y git
 fi
 
 brew bundle -v --file=~/dotfiles/Brewfile
 
 stow -v -d ./dotfiles/packages -t ~ zsh tmux neovim
+
+### change login shell to zsh ###
+command -v zsh | sudo tee -a /etc/shells
+sudo chsh -s "$(command -v zsh)" "${USER}"
+exec $SHELL -l
