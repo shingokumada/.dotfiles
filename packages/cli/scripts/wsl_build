@@ -9,7 +9,7 @@ sudo apt-get update && sudo apt-get upgrade
 
 ### Homebrew install ###
 if [ ! -f /home/linuxbrew/.linuxbrew/bin/brew ]; then
-    sudo apt-get install -y build-essential curl file git
+    sudo apt-get install -y build-essential procps curl file git
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)"
     test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
