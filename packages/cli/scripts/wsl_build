@@ -19,7 +19,7 @@ if [ ! -f /home/linuxbrew/.linuxbrew/bin/brew ]; then
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
     # After that, manage git packages with linuxbrew.
-    sudo apt purge  git
+    sudo apt -y purge git
 fi
 
 brew bundle -v --file=~/dotfiles/Brewfile
