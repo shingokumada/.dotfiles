@@ -23,7 +23,7 @@ test -r ~/.bash_profile && echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"
 echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.profile
 
 # Deleted to manage packages with brew
-sudo apt purge -y git curl
+sudo apt purge -y git
 
 brew bundle -v --file=~/dotfiles/Brewfile
 
