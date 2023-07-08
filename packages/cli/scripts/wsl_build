@@ -5,7 +5,7 @@ set -e
 
 cd ~
 
-sudo apt update
+sudo apt update && sudo apt upgrade
 
 ### linuxbrew install ###
 if [ ! -f /home/linuxbrew/.linuxbrew/bin/brew ]; then
