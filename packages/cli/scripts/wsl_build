@@ -5,16 +5,16 @@ set -e
 
 cd ~
 
-sudo apt update
+sudo apt update && sudo apt install -y build-essential procps curl file git
+
+if [ ! -d ~/dotfiles ]; then
+    git clone https://github.com/shingo-kumada/dotfiles.git
+fi
 
 ### install linuxbrew ###
 if [ ! -f /home/linuxbrew/.linuxbrew/bin/brew ]; then
-    sudo apt -y install build-essential procps curl file git
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-    if [ ! -d ~/dotfiles ]; then
-        git clone https://github.com/shingo-kumada/dotfiles.git
-    fi
     # Add Homebrew to bash shell profile script.
     test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)"
     test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
