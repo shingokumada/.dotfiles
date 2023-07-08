@@ -19,5 +19,5 @@ curl https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packages/sc
 # macOS
 
 ```sh
-curl 
+curl https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packages/script/bin/build/mac_build
 ```
