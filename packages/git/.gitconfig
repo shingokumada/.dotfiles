@@ -1,0 +1,6 @@
+[user]
+    name = shingo-kumada
+    email = 19km.sn96@gmail.com
+    core.editor = code --wait 
+[color]
+    ui = true

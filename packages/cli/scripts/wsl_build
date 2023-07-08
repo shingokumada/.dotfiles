@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -x
 
 # Abort the program if an error occurs during script execution.
 set -e
@@ -6,7 +6,6 @@ set -e
 cd ~
 
 sudo apt update && sudo apt -y install build-essential procps curl file git
-
 if [ ! -d ~/dotfiles ]; then
     git clone https://github.com/shingo-kumada/dotfiles.git
 fi
@@ -17,17 +16,19 @@ if [ ! -f /home/linuxbrew/.linuxbrew/bin/brew ]; then
 fi
 
 # Add Homebrew to bash shell profile script.
-test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)"
+if [ ! -f ~/.bash_profile ]; then
+    touch ~/.bash_profile
+fi
 test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 test -r ~/.bash_profile && echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.bash_profile
-echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.profile
+echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.profile
 
-# Deleted to manage packages with brew
+# Deleted to manage packages with brew.
 sudo apt purge -y git
 
 brew bundle -v --file=~/dotfiles/Brewfile
 
-stow -v -d ./dotfiles/packages -t ~ zsh tmux neovim
+stow -v -d ./dotfiles/packages -t ~ zsh tmux neovim .bin git
 
 ### change login shell to zsh ###
 command -v zsh | sudo tee -a /etc/shells
