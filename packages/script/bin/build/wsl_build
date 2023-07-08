@@ -25,7 +25,7 @@ echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.profile
 
 brew bundle -v --file=~/dotfiles/Brewfile
 
-stow -v -d ./dotfiles/packages -t ~ zsh tmux neovim .bin git
+stow -v -d ./dotfiles/packages -t ~ git neovim script tmux zsh
 
 ### change login shell to zsh ###
 command -v zsh | sudo tee -a /etc/shells
