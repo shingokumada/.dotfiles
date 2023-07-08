@@ -7,19 +7,21 @@ cd ~
 
 sudo apt update
 
-### linuxbrew install ###
+### install linuxbrew ###
 if [ ! -f /home/linuxbrew/.linuxbrew/bin/brew ]; then
     sudo apt -y install build-essential procps curl file git
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+    if [ ! -d ~/dotfiles ]; then
+        git clone https://github.com/shingo-kumada/dotfiles.git
+    fi
     # Add Homebrew to bash shell profile script.
     test -d ~/.linuxbrew && eval "$(~/.linuxbrew/bin/brew shellenv)"
     test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
     test -r ~/.bash_profile && echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.bash_profile
     echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >> ~/.profile
 
-    # After that, manage git packages with linuxbrew.
-    sudo apt -y purge git
+    sudo apt purge -y git
 fi
 
 brew bundle -v --file=~/dotfiles/Brewfile
