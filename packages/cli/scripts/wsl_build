@@ -9,7 +9,7 @@ sudo apt update
 
 ### linuxbrew install ###
 if [ ! -f /home/linuxbrew/.linuxbrew/bin/brew ]; then
-    sudo apt install -y build-essential procps curl file git
+    sudo apt -y install build-essential procps curl file git
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
     # Add Homebrew to bash shell profile script.
@@ -19,7 +19,7 @@ if [ ! -f /home/linuxbrew/.linuxbrew/bin/brew ]; then
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
     # After that, manage git packages with linuxbrew.
-    sudo apt purge -y git
+    sudo apt purge  git
 fi
 
 brew bundle -v --file=~/dotfiles/Brewfile
