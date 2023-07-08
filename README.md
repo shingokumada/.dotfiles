@@ -13,11 +13,11 @@
 # WSL
 
 ```sh
-curl -o - https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packages/cli/scripts/wsl_build | sh
+curl https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packages/script/bin/build/wsl_build
 ```
 
 # macOS
 
 ```sh
-curl -o - https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packages/cli/scripts/mac_build | sh
+curl 
 ```
