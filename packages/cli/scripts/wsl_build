@@ -23,12 +23,12 @@ test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/bre
 test -r ~/.bash_profile && echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.bash_profile
 echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.profile
 
-# Deleted to manage packages with brew.
-sudo apt purge -y git
-
 brew bundle -v --file=~/dotfiles/Brewfile
 
 stow -v -d ./dotfiles/packages -t ~ zsh tmux neovim .bin git
+
+# Deleted to manage packages with brew.
+sudo apt purge -y git
 
 ### change login shell to zsh ###
 command -v zsh | sudo tee -a /etc/shells
