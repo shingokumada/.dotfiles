@@ -27,9 +27,6 @@ brew bundle -v --file=~/dotfiles/Brewfile
 
 stow -v -d ./dotfiles/packages -t ~ zsh tmux neovim .bin git
 
-# Deleted to manage packages with brew.
-sudo apt purge -y git
-
 ### change login shell to zsh ###
 command -v zsh | sudo tee -a /etc/shells
 sudo chsh -s "$(command -v zsh)" "${USER}"
