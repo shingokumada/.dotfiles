@@ -50,4 +50,5 @@ export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"
 . /home/linuxbrew/.linuxbrew/opt/asdf/libexec/asdf.sh
 
 ### bin ###
-export PATH="$PATH:/home/bin"
+export PATH="$PATH:$HOME/bin"
+export PATH="$PATH:$HOME/bin/build"

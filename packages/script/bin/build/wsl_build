@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Abort the program if an error occurs during script execution.
 set -e
@@ -29,5 +29,5 @@ stow -v -d ./dotfiles/packages -t ~ git neovim script tmux zsh
 
 ### change login shell to zsh ###
 command -v zsh | sudo tee -a /etc/shells
-sudo chsh -s "$(command -v zsh)" "${USER}"
+chsh -s "$(command -v zsh)" "${USER}"
 exec $SHELL -l
