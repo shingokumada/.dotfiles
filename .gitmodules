@@ -4,3 +4,6 @@
 [submodule "ohmyzsh"]
 	path = packages/zsh/.antigen/bundles/robbyrussell/oh-my-zsh
 	url = https://github.com/ohmyzsh/ohmyzsh.git
+[submodule "packages/neovim/.config/nvim/pack/airblade/start/vim-gitgutter"]
+	path = packages/neovim/.config/nvim/pack/airblade/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
