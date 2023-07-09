@@ -20,9 +20,9 @@ syntax on
 " ------------------------ vim Plug --------------------------
 
 call plug#begin()
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'ntk148v/vim-horizon'
 Plug 'preservim/nerdtree'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 call plug#end()
 
 " if you don't set this option, this color might not correct
