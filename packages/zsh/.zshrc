@@ -47,7 +47,8 @@ antigen theme robbyrussell
 antigen apply
 
 ### volta ###
-export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin/volta"
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$PATH:$VOLTA_HOME/bin"
 
 ### Homebrew ###
 export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"
