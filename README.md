@@ -1,4 +1,5 @@
 # dotfiles
+**Bundled plugins are governed by their respective licenses. Other scripts written by shingo-kumada are under the MIT license.**
 
 **dotfile managed whidth :**
 
