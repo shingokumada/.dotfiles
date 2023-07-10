@@ -1,4 +1,5 @@
 ### alias ###
+alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
 alias gitconf="vim ~/.gitconfig"
 alias vi="nvim"
 alias vim="nvim"
@@ -59,3 +60,8 @@ export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"
 ### bin ###
 export PATH="$PATH:$HOME/bin"
 export PATH="$PATH:$HOME/bin/build"
+
+### pyenv ###
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
