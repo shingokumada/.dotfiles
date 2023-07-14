@@ -1,5 +1,4 @@
 ### alias ###
-alias brew='env PATH="${PATH//$(pyenv root)\/shims:/}" brew'
 alias gitconf="vim ~/.gitconfig"
 alias vi="nvim"
 alias vim="nvim"
@@ -26,6 +25,9 @@ export SAVEHIST=100000
 # pronpt
 PROMPT='%c %#'
 
+# manpages-ja 
+export LANG=ja_JP.utf8
+
 ### antigen ###
 source ~/.antigen/antigen.zsh
 antigen use oh-my-zsh
@@ -38,7 +40,7 @@ antigen bundle pip
 antigen bundle web-serach
 
 # Syntax highlighting bundle.
-antigen bundle sobolevn/wakatime-zsh-plugin
+antigen bundle wbingli/zsh-wakatime
 antigen bundle unixorn/fzf-zsh-plugin@main
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
@@ -52,16 +54,24 @@ export VOLTA_HOME="$HOME/.volta"
 export PATH="$PATH:$VOLTA_HOME/bin"
 
 ### Homebrew ###
-export PATH="$PATH:/home/linuxbrew/.linuxbrew/bin"
+export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+export PATH="/home/linuxbrew/.linuxbrew/sbin:$PATH"
 
-### asdf ###
-. /home/linuxbrew/.linuxbrew/opt/asdf/libexec/asdf.sh
-
-### bin ###
-export PATH="$PATH:$HOME/bin"
-export PATH="$PATH:$HOME/bin/build"
+### .bin ###
+export PATH="$PATH:$HOME/.bin"
+export PATH="$PATH:$HOME/.bin/build"
 
 ### pyenv ###
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+eval "$(pyenv init --path)"
+
+# pip
+export PATH="$PATH:$HOME/.local/bin"
+
+### wakatime ###
+export ZSH_WAKATIME_PROJECT_DETECTION=true
+
+### Remove duplicate paths ###
+export PATH=$(printf %s "$PATH" | awk -v RS=: -v ORS=: '!arr[$0]++')
+
