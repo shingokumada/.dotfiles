@@ -70,6 +70,9 @@ eval "$(pyenv init --path)"
 # pip
 export PATH="$PATH:$HOME/.local/bin"
 
+### rbenv ###
+eval "$(rbenv init -)"
+
 ### wakatime ###
 export ZSH_WAKATIME_PROJECT_DETECTION=true
 
