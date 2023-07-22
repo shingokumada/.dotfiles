@@ -16,13 +16,13 @@
 **Package management with linuxbrew.**
 
 ```sh
-curl https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packages/script/bin/build/wsl_build
+curl https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packages/script/.bin/build/wsl_build
 ```
 
 ## macOS
 
 ```sh
-curl https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packages/script/bin/build/mac_build
+curl https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packages/script/.bin/build/mac_build
 ```
 
 ## **zsh**
