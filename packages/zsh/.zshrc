@@ -6,6 +6,7 @@ alias vim="nvim"
 alias view="nvim -R"
 alias vimconf="vim ~/.config/nvim/init.vim"
 alias tmuxconf="vim ~/.tmux.conf"
+alias ubuntu-v="cat /etc/os-release"
 alias zshpro="vim ~/.zprofile"
 alias zshconf="vim ~/.zshrc"
 
@@ -70,8 +71,11 @@ eval "$(pyenv init --path)"
 # pip
 export PATH="$PATH:$HOME/.local/bin"
 
-### rbenv ###
-eval "$(rbenv init -)"
+### ruby ###
+# rbenv 
+eval "$(rbenv init - zsh)"
+eval "$(~/.rbenv/bin/rbenv init - zsh)"
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir=/opt/openssl-1.1.1q/"
 
 ### wakatime ###
 export ZSH_WAKATIME_PROJECT_DETECTION=true
