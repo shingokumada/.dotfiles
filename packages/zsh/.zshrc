@@ -1,4 +1,5 @@
 ### alias ###
+alias brewdeps="brew deps --installed --tree"
 alias cpuinfo="cat /proc/meminfo | less"
 alias gitconf="vim ~/.gitconfig"
 alias vi="nvim"
