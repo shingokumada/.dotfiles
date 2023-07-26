@@ -6,6 +6,7 @@ set -e
 cd ~
 
 sudo apt update && sudo apt -y install build-essential procps curl file git
+
 if [ ! -d ~/dotfiles ]; then
     git clone https://github.com/shingo-kumada/dotfiles.git
 fi
@@ -28,6 +29,6 @@ brew bundle -v --file=~/dotfiles/Brewfile
 stow -v -d ./dotfiles/packages -t ~ git neovim script tmux zsh
 
 ### change login shell to zsh ###
-command -v zsh | sudo tee -a /etc/shells
+cat /etc/shells | grep /home/linuxbrew/.linuxbrew/bin/zsh || command -v zsh | sudo tee -a /etc/shells
 chsh -s "$(command -v zsh)" "${USER}"
 exec $SHELL -l
