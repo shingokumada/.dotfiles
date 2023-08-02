@@ -128,6 +128,7 @@ _comps=(
 'ansible-pull' '_ansible'
 'ansible-vault' '_ansible'
 'ant' '_ant'
+'antigen' '_antigen'
 'antiword' '_antiword'
 'aodh' '_openstack'
 'aoss' '_precommand'
