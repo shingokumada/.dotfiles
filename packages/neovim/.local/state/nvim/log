@@ -1,1 +1,2 @@
 ERR 2023-07-08T22:35:49.338 nvim.43043.0 libuv_process_spawn:97: uv_spawn(/bin/zsh) failed: no such file or directory
+ERR 2023-08-02T23:09:05.064 nvim.37372.0 libuv_process_spawn:97: uv_spawn(/bin/zsh) failed: no such file or directory

@@ -32,7 +32,7 @@ PROMPT='%c %#'
 export LANG=ja_JP.utf8
 
 ### antigen ###
-source ~/.antigen/antigen.zsh
+source /home/linuxbrew/.linuxbrew/share/antigen/antigen.zsh
 antigen use oh-my-zsh
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
