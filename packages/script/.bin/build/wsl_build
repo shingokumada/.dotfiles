@@ -30,5 +30,5 @@ stow -v -d ./dotfiles/packages -t ~ git neovim script tmux zsh
 
 ### change login shell to zsh ###
 cat /etc/shells | grep /home/linuxbrew/.linuxbrew/bin/zsh || command -v zsh | sudo tee -a /etc/shells
-chsh -s "$(command -v zsh)" "${USER}"
+sudo chsh -s "$(command -v zsh)" "${USER}"
 exec $SHELL -l
