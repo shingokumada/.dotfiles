@@ -13216,3 +13216,94 @@ antigen
 antigen-apply
 antigen
 /home/shingo/.zshrc
+[WRN][1690981808.9012629986] /home/shingo/.antigen/antigen.zsh:266
+[WRN][1690981808.9012629986] -antigen-interactive-mode: toplevel:file:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[TRA][1690981808.9014854431] /home/shingo/.antigen/antigen.zsh:475
+[TRA][1690981808.9014854431] Gonna create compdump file @ env-setup COMPDUMP
+[TRA][1690981808.9014854431] TRACE
+-antigen-env-setup
+/home/shingo/.antigen/antigen.zsh
+/home/shingo/.zshrc
+[TRA][1690981808.9685363770] /home/shingo/.antigen/antigen.zsh:808
+[TRA][1690981808.9685363770] Called antigen-bundle with --loc=lib BUNDLE
+[TRA][1690981808.9685363770] TRACE
+antigen-bundle
+-antigen-use-oh-my-zsh
+antigen-use
+antigen
+/home/shingo/.zshrc
+[TRA][1690981808.9691438675] /home/shingo/.antigen/antigen.zsh:808
+[TRA][1690981808.9691438675] Called antigen-bundle with command-not-found BUNDLE
+[TRA][1690981808.9691438675] TRACE
+antigen-bundle
+antigen
+/home/shingo/.zshrc
+[TRA][1690981808.9694504738] /home/shingo/.antigen/antigen.zsh:808
+[TRA][1690981808.9694504738] Called antigen-bundle with git BUNDLE
+[TRA][1690981808.9694504738] TRACE
+antigen-bundle
+antigen
+/home/shingo/.zshrc
+[TRA][1690981808.9697225094] /home/shingo/.antigen/antigen.zsh:808
+[TRA][1690981808.9697225094] Called antigen-bundle with python BUNDLE
+[TRA][1690981808.9697225094] TRACE
+antigen-bundle
+antigen
+/home/shingo/.zshrc
+[TRA][1690981808.9708898067] /home/shingo/.antigen/antigen.zsh:808
+[TRA][1690981808.9708898067] Called antigen-bundle with pip BUNDLE
+[TRA][1690981808.9708898067] TRACE
+antigen-bundle
+antigen
+/home/shingo/.zshrc
+[TRA][1690981808.9711787701] /home/shingo/.antigen/antigen.zsh:808
+[TRA][1690981808.9711787701] Called antigen-bundle with web-serach BUNDLE
+[TRA][1690981808.9711787701] TRACE
+antigen-bundle
+antigen
+/home/shingo/.zshrc
+[TRA][1690981808.9715790749] /home/shingo/.antigen/antigen.zsh:834
+[TRA][1690981808.9715790749] -antigen-load failed to load robbyrussell/oh-my-zsh BUNDLE
+[TRA][1690981808.9715790749] TRACE
+antigen-bundle
+antigen
+/home/shingo/.zshrc
+[TRA][1690981808.9717080593] /home/shingo/.antigen/antigen.zsh:808
+[TRA][1690981808.9717080593] Called antigen-bundle with wbingli/zsh-wakatime BUNDLE
+[TRA][1690981808.9717080593] TRACE
+antigen-bundle
+antigen
+/home/shingo/.zshrc
+[TRA][1690981808.9722232819] /home/shingo/.antigen/antigen.zsh:808
+[TRA][1690981808.9722232819] Called antigen-bundle with unixorn/fzf-zsh-plugin@main BUNDLE
+[TRA][1690981808.9722232819] TRACE
+antigen-bundle
+antigen
+/home/shingo/.zshrc
+[TRA][1690981808.9726445675] /home/shingo/.antigen/antigen.zsh:808
+[TRA][1690981808.9726445675] Called antigen-bundle with zsh-users/zsh-syntax-highlighting BUNDLE
+[TRA][1690981808.9726445675] TRACE
+antigen-bundle
+antigen
+/home/shingo/.zshrc
+[TRA][1690981808.9729197025] /home/shingo/.antigen/antigen.zsh:808
+[TRA][1690981808.9729197025] Called antigen-bundle with zsh-users/zsh-autosuggestions BUNDLE
+[TRA][1690981808.9729197025] TRACE
+antigen-bundle
+antigen
+/home/shingo/.zshrc
+[TRA][1690981808.9743404388] /home/shingo/.antigen/antigen.zsh:808
+[TRA][1690981808.9743404388] Called antigen-bundle with --loc=themes/robbyrussell --btype=theme BUNDLE
+[TRA][1690981808.9743404388] TRACE
+antigen-bundle
+antigen-theme
+antigen
+/home/shingo/.zshrc
+[LOG][1690981808.9747033119] /home/shingo/.antigen/antigen.zsh:785
+[LOG][1690981808.9747033119] Called antigen-apply
+[TRA][1690981808.9747378826] /home/shingo/.antigen/antigen.zsh:789
+[TRA][1690981808.9747378826] Gonna create compdump file @ apply COMPDUMP
+[TRA][1690981808.9747378826] TRACE
+antigen-apply
+antigen
+/home/shingo/.zshrc
