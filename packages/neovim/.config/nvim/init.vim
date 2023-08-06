@@ -1,5 +1,6 @@
+" ================ Change Vim Options ================
 " command uses zsh
-set shell=/bin/zsh
+set shell=/home/linuxbrew/.linuxbrew/bin/zsh
 " indent
 set shiftwidth=4
 " tab
@@ -17,8 +18,7 @@ set clipboard=unnamed
 " Syntax on
 syntax on
 
-" ------------------------ vim Plug --------------------------
-
+" ================ Use Vim Plugins ================
 call plug#begin()
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
