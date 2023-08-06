@@ -1,7 +1,8 @@
-### alias ###
+### Create Alias ###
 alias brewdeps="brew deps --installed --tree"
 alias cpuinfo="cat /proc/meminfo | less"
 alias gitconf="vim ~/.gitconfig"
+alias ls="ls -lAFh"
 alias vi="nvim"
 alias vim="nvim"
 alias view="nvim -R"
@@ -11,7 +12,7 @@ alias ubuntu-v="cat /etc/os-release"
 alias zshpro="vim ~/.zprofile"
 alias zshconf="vim ~/.zshrc"
 
-### Zsh ###
+### Change ZSH Options ###
 setopt auto_pushd
 setopt auto_cd
 setopt hist_ignore_dups
@@ -20,18 +21,17 @@ setopt no_beep
 setopt pushd_ignore_dups
 setopt share_history
 
-# Path to your oh-my-zsh installation.
 export HISTFILE=$HOME/.zsh_history
 export HISTSIZE=100000
 export SAVEHIST=100000
 
-# pronpt
-PROMPT='%c %#'
+### Customize Pronpt(s) ###
+PROMPT='
+%1~ %L %#'
 
-# manpages-ja 
-export LANG=ja_JP.utf8
+PROMPT='%*'
 
-### antigen ###
+### Use ZSH Plugins ###
 source /home/linuxbrew/.linuxbrew/share/antigen/antigen.zsh
 antigen use oh-my-zsh
 
@@ -52,35 +52,43 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen theme robbyrussell
 antigen apply
 
-### volta ###
+### Add Location to $PATH Variable ###
+
+# volta
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$PATH:$VOLTA_HOME/bin"
 
-### Homebrew ###
+# Homebrew
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 export PATH="/home/linuxbrew/.linuxbrew/sbin:$PATH"
 
-### .bin ###
+# .bin
 export PATH="$PATH:$HOME/.bin"
 export PATH="$PATH:$HOME/.bin/build"
 
-### pyenv ###
+# pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
 
-# pip
-export PATH="$PATH:$HOME/.local/bin"
-
-### ruby ###
 # rbenv 
 eval "$(rbenv init - zsh)"
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=/opt/openssl-1.1.1q/"
 
-### wakatime ###
+# wakatime
 export ZSH_WAKATIME_PROJECT_DETECTION=true
 
+#==================================================================#
+#                   ⇓ [ Write Handy Functions ] ⇓                  #
+#==================================================================#
+
+### mkcd ###
+function mkcd() {
+    mkdir -p "$@" && cd "$_";
+}
+
 ### GitHub ssh ###
+
 # Configure ssh forwarding
 export SSH_AUTH_SOCK=$HOME/.ssh/agent.sock
 # need `ps -ww` to get non-truncated command for matching
