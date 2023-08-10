@@ -4,5 +4,3 @@
     editor = code --wait 
 [color]
     ui = true
-[core]
-	sshCommand = C:/Windows/System32/OpenSSH/ssh.exe
