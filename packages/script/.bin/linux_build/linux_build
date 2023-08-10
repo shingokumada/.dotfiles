@@ -24,7 +24,7 @@ test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/bre
 test -r ~/.bash_profile && echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.bash_profile
 echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.profile
 
-brew bundle -v --file=~/dotfiles/Brewfile
+brew bundle -v --file=~/dotfiles/packages/script/.bin/linux_build/Brewfile
 
 stow -v -d ./dotfiles/packages -t ~ git neovim script tmux zsh
 

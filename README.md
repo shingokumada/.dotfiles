@@ -6,19 +6,23 @@
 
 - **[Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle)**
 
+## Linux
+
 **installed apps :**
 
-**See my [Brewfile](https://github.com/shingo-kumada/dotfiles/blob/master/Brewfile)**
+**See my [Brewfile](./packages/script/.bin/linux_build/Brewfile)**
 
-## WSL
-
-**Package management with linuxbrew.**
+**Packages described in Brewfile are managed by linuxbrew.**
 
 ```sh
 curl -o - https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packages/script/.bin/build/wsl_build | sh
 ```
 
-## macOS
+## Mac
+
+**installed apps :**
+
+**See my [Brewfile](./packages/script/.bin/mac_build/Brewfile)**
 
 ```sh
 curl -o - https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packages/script/.bin/build/mac_build | sh
