@@ -10,22 +10,22 @@
 
 **installed apps :**
 
-**See my [Brewfile](./packages/script/.bin/linux_build/Brewfile)**
+**See my [Brewfile](./packages/shell/.bin/linux_build/Brewfile)**
 
 **Packages described in Brewfile are managed by linuxbrew.**
 
 ```sh
-curl -o - https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packages/script/.bin/build/wsl_build | sh
+curl -o - https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packages/shell/.bin/linux_build/linux_build.sh | sh
 ```
 
 ## Mac
 
 **installed apps :**
 
-**See my [Brewfile](./packages/script/.bin/mac_build/Brewfile)**
+**See my [Brewfile](./packages/shell/.bin/mac_build/Brewfile)**
 
 ```sh
-curl -o - https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packages/script/.bin/build/mac_build | sh
+curl -o - https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packages/shell/.bin/mac_build/mac_build.sh | sh
 ```
 
 ## **zsh**
