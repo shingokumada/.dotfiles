@@ -22,6 +22,7 @@ syntax on
 call plug#begin()
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 Plug 'ntk148v/vim-horizon'
 Plug 'preservim/nerdtree'
 call plug#end()

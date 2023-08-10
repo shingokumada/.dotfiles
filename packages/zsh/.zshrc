@@ -1,6 +1,7 @@
 ### Create Alias ###
 alias brewdeps="brew deps --installed --tree"
 alias cpuinfo="cat /proc/meminfo | less"
+alias fzf="find * -type f | fzf"
 alias gitconf="vim ~/.gitconfig"
 alias ls="ls -lAFh"
 alias vi="nvim"
@@ -25,12 +26,6 @@ export HISTFILE=$HOME/.zsh_history
 export HISTSIZE=100000
 export SAVEHIST=100000
 
-### Customize Pronpt(s) ###
-PROMPT='
-%1~ %L %#'
-
-PROMPT='%*'
-
 ### Use ZSH Plugins ###
 source /home/linuxbrew/.linuxbrew/share/antigen/antigen.zsh
 antigen use oh-my-zsh
@@ -40,7 +35,6 @@ antigen bundle command-not-found
 antigen bundle git
 antigen bundle python
 antigen bundle pip
-antigen bundle web-serach
 
 # Syntax highlighting bundle.
 antigen bundle wbingli/zsh-wakatime
@@ -73,7 +67,6 @@ eval "$(pyenv init --path)"
 
 # rbenv 
 eval "$(rbenv init - zsh)"
-export RUBY_CONFIGURE_OPTS="--with-openssl-dir=/opt/openssl-1.1.1q/"
 
 # wakatime
 export ZSH_WAKATIME_PROJECT_DETECTION=true
@@ -108,4 +101,3 @@ fi
 
 ### Remove duplicate paths ###
 export PATH=$(printf %s "$PATH" | awk -v RS=: -v ORS=: '!arr[$0]++')
-
