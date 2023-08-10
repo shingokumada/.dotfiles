@@ -8,7 +8,6 @@ brew "pyenv"
 brew "rbenv"
 brew "ruby-build"
 brew "stow"
-brew "tmux"
 brew "volta"
 brew "zsh"
 
