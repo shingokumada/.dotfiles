@@ -31702,3 +31702,11 @@ antigen
 [LOG][1691774484.0356197357] Return from hook antigen-apply with 0
 [LOG][1691774484.0357728004] /home/shingo/.antigen/antigen.zsh:1518
 [LOG][1691774484.0357728004] Return from hook antigen with 0
+[WRN][1691774853.4139842987] /home/shingo/dotfiles/packages/zsh/.antigen/antigen.zsh:266
+[WRN][1691774853.4139842987] -antigen-interactive-mode: toplevel:shfunc:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[TRA][1691774853.4141218662] /home/shingo/dotfiles/packages/zsh/.antigen/antigen.zsh:475
+[TRA][1691774853.4141218662] Gonna create compdump file @ env-setup COMPDUMP
+[TRA][1691774853.4141218662] TRACE
+-antigen-env-setup
+/home/shingo/dotfiles/packages/zsh/.antigen/antigen.zsh
+antigen
