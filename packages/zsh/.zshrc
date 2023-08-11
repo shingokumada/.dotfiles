@@ -1,15 +1,16 @@
 ### Create Alias ###
 alias brewdeps="brew deps --installed --tree"
+alias cl="clear"
 alias cpuinfo="cat /proc/meminfo | less"
 alias fzf="find * -type f | fzf"
 alias gitconf="vim ~/.gitconfig"
-alias ls="ls -lAFh"
+alias relogin="exec $SHELL -l"
+alias tmuxconf="vim ~/.tmux.conf"
+alias ubuntu-v="cat /etc/os-release"
 alias vi="nvim"
 alias vim="nvim"
 alias view="nvim -R"
 alias vimconf="vim ~/.config/nvim/init.vim"
-alias tmuxconf="vim ~/.tmux.conf"
-alias ubuntu-v="cat /etc/os-release"
 alias zshpro="vim ~/.zprofile"
 alias zshconf="vim ~/.zshrc"
 
@@ -27,26 +28,7 @@ export HISTSIZE=100000
 export SAVEHIST=100000
 
 ### Use ZSH Plugins ###
-source /home/linuxbrew/.linuxbrew/share/antigen/antigen.zsh
-antigen use oh-my-zsh
-
-# Bundles from the default repo (robbyrussell's oh-my-zsh).
-antigen bundle command-not-found
-antigen bundle git
-antigen bundle python
-antigen bundle pip
-
-# Syntax highlighting bundle.
-antigen bundle wbingli/zsh-wakatime
-antigen bundle unixorn/fzf-zsh-plugin@main
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle zsh-users/zsh-autosuggestions
-
-# Load the theme.
-antigen theme robbyrussell
-antigen apply
-
-### Add Location to $PATH Variable ###
+source $HOME/.antigen/.zshrc.antigen
 
 # volta
 export VOLTA_HOME="$HOME/.volta"
