@@ -2,6 +2,8 @@
 
 **dotfile managed whidth :**
 
+- **[asdf](https://asdf-vm.com/guide/introduction.html)**
+
 - **[GNU stow](https://www.gnu.org/software/stow/)**
 
 - **[Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle)**
@@ -13,6 +15,8 @@
 **See my [Brewfile](./packages/shell/.bin/linux_build/Brewfile)**
 
 **Packages described in Brewfile are managed by linuxbrew.**
+
+**When executing the script, the login user must be yourself (other than root).**
 
 ```sh
 curl -o - https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packages/shell/.bin/linux_build/linux_build.sh | sh
