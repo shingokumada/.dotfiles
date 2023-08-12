@@ -31710,3 +31710,33 @@ antigen
 -antigen-env-setup
 /home/shingo/dotfiles/packages/zsh/.antigen/antigen.zsh
 antigen
+[TRA][1691779694.7013854980] /home/shingo/.zshrc:1542
+[TRA][1691779694.7013854980] Called antigen-bundle with --loc=themes/fucky --btype=theme BUNDLE
+[TRA][1691779694.7013854980] TRACE
+antigen-bundle
+antigen-theme
+[TRA][1691779694.7105743885] /home/shingo/.zshrc:1569
+[TRA][1691779694.7105743885] -antigen-load failed to load robbyrussell/oh-my-zsh BUNDLE
+[TRA][1691779694.7105743885] TRACE
+antigen-bundle
+antigen-theme
+[WRN][1691779778.6414561272] /home/shingo/dotfiles/packages/zsh/.antigen/antigen.zsh:266
+[WRN][1691779778.6414561272] -antigen-interactive-mode: toplevel:shfunc:file:shfunc:shfunc $_ANTIGEN_INTERACTIVE = 
+[TRA][1691779778.6415624619] /home/shingo/dotfiles/packages/zsh/.antigen/antigen.zsh:475
+[TRA][1691779778.6415624619] Gonna create compdump file @ env-setup COMPDUMP
+[TRA][1691779778.6415624619] TRACE
+-antigen-env-setup
+/home/shingo/dotfiles/packages/zsh/.antigen/antigen.zsh
+antigen
+[TRA][1691779789.8591504097] /home/shingo/dotfiles/packages/zsh/.antigen/antigen.zsh:808
+[TRA][1691779789.8591504097] Called antigen-bundle with --loc=themes/funcy --btype=theme BUNDLE
+[TRA][1691779789.8591504097] TRACE
+antigen-bundle
+antigen-theme
+antigen
+[TRA][1691779789.8601493835] /home/shingo/dotfiles/packages/zsh/.antigen/antigen.zsh:834
+[TRA][1691779789.8601493835] -antigen-load failed to load robbyrussell/oh-my-zsh BUNDLE
+[TRA][1691779789.8601493835] TRACE
+antigen-bundle
+antigen-theme
+antigen
