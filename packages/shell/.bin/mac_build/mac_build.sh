@@ -16,4 +16,4 @@ stow -R -v -d ./dotfiles/packages -t ~ git neovim shell tmux zsh
 
 ### change login shell to zsh ###
 chsh -s "$(command -v zsh)" "${USER}"
-exec $SHELL -l
+exec "$(command -v zsh)" -l
