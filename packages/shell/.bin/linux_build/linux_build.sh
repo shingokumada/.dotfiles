@@ -5,7 +5,8 @@ set -e
 
 cd ~
 
-sudo apt update && sudo apt -y install build-essential procps curl file git
+sudo apt update 
+sudo apt -y install build-essential procps curl file git stow
 
 if [ ! -d ~/dotfiles ]; then
     git clone https://github.com/shingo-kumada/dotfiles.git
@@ -31,4 +32,4 @@ stow -R -v -d ./dotfiles/packages -t ~ git neovim shell tmux zsh
 ### change login shell to zsh ###
 cat /etc/shells | grep /home/linuxbrew/.linuxbrew/bin/zsh || command -v zsh | sudo tee -a /etc/shells
 sudo chsh -s "$(command -v zsh)" "${USER}"
-exec $SHELL -l
+exec "$(command -v zsh)" -l
