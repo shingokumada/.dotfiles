@@ -1,0 +1,10 @@
+brew "asdf"
+brew "deno"
+brew "fzf"
+brew "neovim"
+brew "stow"
+brew "volta"
+brew "zsh"
+
+
+
