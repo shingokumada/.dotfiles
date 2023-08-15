@@ -1,6 +1,6 @@
 ### Create Alias ###
 alias brewdeps="brew deps --installed --tree"
-alias cl="clear"
+alias cls="clear"
 alias cpuinfo="cat /proc/meminfo | less"
 alias fzf="find * -type f | fzf"
 alias gitconf="vim ~/.gitconfig"
@@ -28,23 +28,11 @@ export HISTSIZE=100000
 export SAVEHIST=100000
 
 ### Use ZSH Plugins ###
-source $HOME/.antigen/.zshrc.antigen
-
-# volta
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$PATH:$VOLTA_HOME/bin"
+source ~/.antigen/.zshrc.antigen
 
 # Homebrew
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 export PATH="/home/linuxbrew/.linuxbrew/sbin:$PATH"
-
-# pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init --path)"
-
-# rbenv 
-eval "$(rbenv init - zsh)"
 
 # wakatime
 export ZSH_WAKATIME_PROJECT_DETECTION=true

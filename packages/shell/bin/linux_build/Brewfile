@@ -1,6 +1,5 @@
 brew "asdf"
 brew "deno"
-brew "fzf"
 brew "neovim"
 brew "volta"
 brew "zsh"
