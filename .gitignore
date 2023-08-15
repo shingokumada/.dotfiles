@@ -1,7 +1,0 @@
-Brewfile.lock.json
-
-.zcompdump.*
-
-*.log
-
-revert-info
