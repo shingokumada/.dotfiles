@@ -8,7 +8,7 @@ cd ~
 sudo apt update 
 sudo apt -y install build-essential procps curl file git stow
 
-if [ ! -d ~/dotfiles ]; then
+if [ ! -d ~/.dotfiles ]; then
     git clone https://github.com/shingo-kumada/dotfiles.git
 fi
 
@@ -25,9 +25,9 @@ test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/bre
 test -r ~/.bash_profile && echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.bash_profile
 echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.profile
 
-brew bundle -v --file=~/dotfiles/packages/shell/bin/linux_build/Brewfile
+brew bundle -v --file=~/.dotfiles/packages/shell/bin/linux_build/Brewfile
 
-stow -R -v -d ./dotfiles/packages -t ~ git neovim shell tmux zsh
+stow -R -v -d ~/.dotfiles/packages -t ~ git neovim shell tmux zsh
 
 ### install antigen ###
 if [ ! -f ~/.antigen/antigen.zsh ]; then
