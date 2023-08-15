@@ -19,7 +19,7 @@
 **When executing the script, the login user must be yourself (other than root).**
 
 ```sh
-curl -o - https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packages/shell/.bin/linux_build/linux_build.sh | sh
+curl -o - https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packages/shell/bin/linux_build/linux_build.sh | sh
 ```
 
 ## Mac
@@ -29,7 +29,7 @@ curl -o - https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packag
 **See my [Brewfile](./packages/shell/.bin/mac_build/Brewfile)**
 
 ```sh
-curl -o - https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packages/shell/.bin/mac_build/mac_build.sh | sh
+curl -o - https://raw.githubusercontent.com/shingo-kumada/dotfiles/master/packages/shell/bin/mac_build/mac_build.sh | sh
 ```
 
 ## **zsh**
