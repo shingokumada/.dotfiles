@@ -48,3 +48,6 @@ function mkcd() {
 
 ### Remove duplicate paths ###
 export PATH=$(printf %s "$PATH" | awk -v RS=: -v ORS=: '!arr[$0]++')
+
+### asdf ###
+. /home/linuxbrew/.linuxbrew/opt/asdf/libexec/asdf.sh
