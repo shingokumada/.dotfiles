@@ -27,7 +27,7 @@ echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.profile
 
 brew bundle -v --file=~/.dotfiles/packages/shell/bin/linux_build/Brewfile
 
-stow -R -v -d ~/.dotfiles/packages -t ~ git neovim shell tmux zsh
+stow -R -v -d ~/.dotfiles/packages -t ~ asdf git neovim shell tmux zsh
 
 ### install antigen ###
 if [ ! -f ~/.antigen/antigen.zsh ]; then
