@@ -12,7 +12,7 @@ fi
 
 brew bundle -v --file=~/.dotfiles/packages/shell/bin/mac_build/Brewfile
 
-stow -R -v -d ~/.dotfiles/packages -t ~ git neovim shell tmux zsh
+stow -R -v -d ~/.dotfiles/packages -t ~ asdf git neovim shell tmux zsh
 
 ### change login shell to zsh ###
 chsh -s "$(command -v zsh)" "${USER}"
