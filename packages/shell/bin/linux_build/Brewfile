@@ -1,8 +1,0 @@
-brew "asdf"
-brew "deno"
-brew "neovim"
-brew "volta"
-brew "zsh"
-
-
-
