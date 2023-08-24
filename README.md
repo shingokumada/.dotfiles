@@ -8,8 +8,6 @@
 
 - **[Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle)**
 
-<br>
-
 ## Linux
 
 **installed apps :**
@@ -24,8 +22,6 @@
 curl -o - https://raw.githubusercontent.com/shingo-kumada/.dotfiles/master/packages/shell/bin/linux_build/linux_build.sh | bash
 ```
 
-<br>
-
 ## Mac
 
 **installed apps :**
@@ -35,8 +31,6 @@ curl -o - https://raw.githubusercontent.com/shingo-kumada/.dotfiles/master/packa
 ```sh
 curl -o - https://raw.githubusercontent.com/shingo-kumada/.dotfiles/master/packages/shell/bin/mac_build/mac_build.sh | bash
 ```
-
-<br>
 
 ## **Zsh**
 
@@ -55,8 +49,6 @@ curl -o - https://raw.githubusercontent.com/shingo-kumada/.dotfiles/master/packa
 - **[web-serach](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search)**
 - **[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)**
 - **[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)**
-
-<br>
 
 ## **Neovim**
 
