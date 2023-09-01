@@ -9,7 +9,7 @@ sudo apt update
 sudo apt -y install build-essential curl dirmngr file gawk git gpg stow procps
 
 if [ ! -d ~/.dotfiles ]; then
-    git clone https://github.com/shingo-kumada/dotfiles.git
+    git clone https://github.com/shingo-kumada/.dotfiles.git
 fi
 
 ### install linuxbrew ###
