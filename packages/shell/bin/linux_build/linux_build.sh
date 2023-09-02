@@ -34,6 +34,10 @@ if [ ! -f ~/.antigen/antigen.zsh ]; then
     curl -L git.io/antigen > ~/.antigen/antigen.zsh
 fi
 
+### install vim-plug ###
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
 ### change login shell to zsh ###
 cat /etc/shells | grep /home/linuxbrew/.linuxbrew/bin/zsh || command -v zsh | sudo tee -a /etc/shells
 sudo chsh -s "$(command -v zsh)" "${USER}"
