@@ -20,10 +20,10 @@ fi
 # Add Homebrew to bash shell profile script.
 if [ ! -f ~/.bash_profile ]; then
     touch ~/.bash_profile
+    test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+    test -r ~/.bash_profile && echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.bash_profile
+    echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.profile
 fi
-test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-test -r ~/.bash_profile && echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.bash_profile
-echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.profile
 
 brew bundle -v --file=~/.dotfiles/packages/shell/bin/linux_build/Brewfile
 
