@@ -40,4 +40,4 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 
 ### change login shell to zsh ###
 /home/linuxbrew/.linuxbrew/bin/zsh | sudo tee -a /etc/shells
-sudo chsh -s "$(/home/linuxbrew/.linuxbrew/bin/zsh)" "${USER}"
+sudo chsh -s "/home/linuxbrew/.linuxbrew/bin/zsh" "${USER}"
