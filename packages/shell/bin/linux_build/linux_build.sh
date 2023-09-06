@@ -39,5 +39,5 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 ### change login shell to zsh ###
-cat /etc/shells | grep /home/linuxbrew/.linuxbrew/bin/zsh || command -v zsh | sudo tee -a /etc/shells
-sudo chsh -s "$(command -v zsh)" "${USER}"
+/home/linuxbrew/.linuxbrew/bin/zsh | sudo tee -a /etc/shells
+sudo chsh -s "$(/home/linuxbrew/.linuxbrew/bin/zsh)" "${USER}"
