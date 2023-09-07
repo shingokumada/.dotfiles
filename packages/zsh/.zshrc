@@ -14,6 +14,7 @@ alias vi="nvim"
 alias vim="nvim"
 alias view="nvim -R"
 alias vimconf="vim ~/.config/nvim/init.vim"
+alias zshplug="vim ~/.antigen/.zshrc.antigen"
 alias zshpro="vim ~/.zprofile"
 alias zshconf="vim ~/.zshrc"
 
