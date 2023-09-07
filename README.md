@@ -20,6 +20,8 @@
 
 **When executing the script, the login user must be yourself (other than root).**
 
+<br>
+
 ```sh
 curl -o - https://raw.githubusercontent.com/shingo-kumada/.dotfiles/master/packages/shell/bin/linux_build/linux_build.sh | bash
 ```
@@ -31,6 +33,8 @@ curl -o - https://raw.githubusercontent.com/shingo-kumada/.dotfiles/master/packa
 **installed apps :**
 
 **See my [Brewfile](packages/shell/bin/mac_build/Brewfile)**
+
+<br>
 
 ```sh
 curl -o - https://raw.githubusercontent.com/shingo-kumada/.dotfiles/master/packages/shell/bin/mac_build/mac_build.sh | bash
