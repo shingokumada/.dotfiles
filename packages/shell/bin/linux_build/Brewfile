@@ -1,8 +1,7 @@
 brew "asdf"
-brew "deno"
 brew "neovim"
+brew "stow"
 brew "tmux"
-brew "volta"
 brew "zsh"
 
 
