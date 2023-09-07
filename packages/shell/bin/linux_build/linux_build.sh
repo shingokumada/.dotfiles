@@ -6,7 +6,7 @@ set -e
 cd ~
 
 sudo apt update 
-sudo apt -y install build-essential curl dirmngr file gawk git gpg stow procps
+sudo apt -y install build-essential curl dirmngr file gawk gpg procps
 
 if [ ! -d ~/.dotfiles ]; then
     git clone https://github.com/shingo-kumada/.dotfiles.git
