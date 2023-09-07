@@ -37,9 +37,6 @@ source $HOME/.antigen/.zshrc.antigen
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 export PATH="/home/linuxbrew/.linuxbrew/sbin:$PATH"
 
-# wakatime
-export ZSH_WAKATIME_PROJECT_DETECTION=true
-
 # VS Code
 export PATH="/snap/bin:$PATH"
 

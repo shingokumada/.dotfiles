@@ -6,7 +6,7 @@ set -e
 cd ~
 
 sudo apt update 
-sudo apt -y install build-essential curl dirmngr file gawk git gpg stow procps
+sudo apt -y install build-essential curl dirmngr file gawk gpg procps
 
 if [ ! -d ~/.dotfiles ]; then
     git clone https://github.com/shingo-kumada/.dotfiles.git
@@ -20,10 +20,10 @@ fi
 # Add Homebrew to bash shell profile script.
 if [ ! -f ~/.bash_profile ]; then
     touch ~/.bash_profile
+    test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+    test -r ~/.bash_profile && echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.bash_profile
+    echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.profile
 fi
-test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-test -r ~/.bash_profile && echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.bash_profile
-echo "eval \"\$($(brew --prefix)/bin/brew shellenv)\"" >>~/.profile
 
 brew bundle -v --file=~/.dotfiles/packages/shell/bin/linux_build/Brewfile
 
@@ -39,5 +39,5 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 ### change login shell to zsh ###
-cat /etc/shells | grep /home/linuxbrew/.linuxbrew/bin/zsh || command -v zsh | sudo tee -a /etc/shells
-sudo chsh -s "$(command -v zsh)" "${USER}"
+/home/linuxbrew/.linuxbrew/bin/zsh | sudo tee -a /etc/shells
+sudo chsh -s "/home/linuxbrew/.linuxbrew/bin/zsh" "${USER}"
