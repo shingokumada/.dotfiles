@@ -17,11 +17,13 @@ set hlsearch
 set clipboard=unnamed
 " Syntax on
 syntax on
+" Set nomber
+set number
 
 " ================ Use Vim Plugins ================
 call plug#begin()
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'ntk148v/vim-horizon'
 Plug 'preservim/nerdtree'
 call plug#end()
