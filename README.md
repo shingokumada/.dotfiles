@@ -64,3 +64,5 @@ curl -o - https://raw.githubusercontent.com/shingo-kumada/.dotfiles/master/packa
 - **[vim-fugitive](https://github.com/tpope/vim-fugitive)**
 - **[vim-gitgutter](https://github.com/airblade/vim-gitgutter)**
 - **[vim-horizon](https://github.com/ntk148v/vim-horizon)**
+
+### **LISENCE**
