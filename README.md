@@ -67,4 +67,4 @@ curl -o - https://raw.githubusercontent.com/shingo-kumada/.dotfiles/master/packa
 
 ## **LICENSE**
 
-**[MIT](LICENSE)**
+### **[MIT](LICENSE)**
