@@ -1,4 +1,7 @@
-### Create Alias ###
+#==================================================================#
+#   Create Alias                                                   #
+#==================================================================#
+
 alias brewdeps="brew deps --installed --tree"
 alias cls="clear"
 alias cpuinfo="cat /proc/meminfo | less"
@@ -18,7 +21,10 @@ alias zshplug="vim ~/.antigen/.zshrc.antigen"
 alias zshpro="vim ~/.zprofile"
 alias zshconf="vim ~/.zshrc"
 
-### Change ZSH Options ###
+#==================================================================#
+#   Change ZSH Options                                             #
+#==================================================================#
+
 setopt auto_pushd
 setopt auto_cd
 setopt hist_ignore_dups
@@ -34,6 +40,18 @@ export SAVEHIST=100000
 ### Use ZSH Plugins ###
 source $HOME/.antigen/.zshrc.antigen
 
+#==================================================================#
+#   Write Handy Functions                                          #
+#==================================================================#
+
+function mkcd() {
+    mkdir -p "$@" && cd "$_";
+}
+
+#==================================================================#
+#   Add path                                                       #
+#==================================================================#
+
 # Homebrew
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 export PATH="/home/linuxbrew/.linuxbrew/sbin:$PATH"
@@ -41,17 +59,8 @@ export PATH="/home/linuxbrew/.linuxbrew/sbin:$PATH"
 # VS Code
 export PATH="/snap/bin:$PATH"
 
-#==================================================================#
-#                   ⇓ [ Write Handy Functions ] ⇓                  #
-#==================================================================#
-
-### mkcd ###
-function mkcd() {
-    mkdir -p "$@" && cd "$_";
-}
+# asdf
+. /home/linuxbrew/.linuxbrew/opt/asdf/libexec/asdf.sh
 
 ### Remove duplicate paths ###
 export PATH=$(printf %s "$PATH" | awk -v RS=: -v ORS=: '!arr[$0]++')
-
-### asdf ###
-. /home/linuxbrew/.linuxbrew/opt/asdf/libexec/asdf.sh
