@@ -7,6 +7,7 @@
     ui = true
 [pull]
     ff = only
+	rebase = true
 [push]
     default = current
 [init]
