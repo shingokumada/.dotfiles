@@ -1,4 +1,5 @@
 brew "asdf"
+brew "htop"
 brew "neovim"
 brew "stow"
 brew "tmux"
