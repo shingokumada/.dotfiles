@@ -5,6 +5,7 @@
 alias brewdeps="brew deps --installed --tree"
 alias cls="clear"
 alias cpuinfo="cat /proc/meminfo | less"
+alias del="rm -ri"
 alias depends="apt depends"
 alias fzf="find * -type f | fzf"
 alias gitconf="vim ~/.gitconfig"
