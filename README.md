@@ -1,4 +1,4 @@
-# dotfiles
+# .dotfiles v1.0.0
 
 **dotfile managed whidth :**
 
