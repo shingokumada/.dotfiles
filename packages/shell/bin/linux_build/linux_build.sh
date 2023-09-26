@@ -6,16 +6,14 @@ set -e
 cd ~
 
 sudo apt update 
-sudo apt -y install build-essential curl dirmngr file gawk gpg procps
+sudo apt -y install build-essential curl file procps
 
 if [ ! -d ~/.dotfiles ]; then
     git clone https://github.com/shingo-kumada/.dotfiles.git
 fi
 
 ### install linuxbrew ###
-if [ ! -f /home/linuxbrew/.linuxbrew/bin/brew ]; then
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-fi
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Add Homebrew to bash shell profile script.
 if [ ! -f ~/.bash_profile ]; then
@@ -28,6 +26,8 @@ fi
 brew bundle -v --file=~/.dotfiles/packages/shell/bin/linux_build/Brewfile
 
 stow -R -v -d ~/.dotfiles/packages -t ~ asdf git neovim shell tmux zsh
+
+test -d /home/linuxbrew/.linuxbrew && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 ### install antigen ###
 if [ ! -f ~/.antigen/antigen.zsh ]; then
