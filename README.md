@@ -6,7 +6,7 @@
 
 - **[GNU stow](https://www.gnu.org/software/stow/)**
 
-- **[Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle)**
+- **[Homebrew](https://github.com/Homebrew/homebrew-bundle)**
 
 <br>
 
