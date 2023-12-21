@@ -52,15 +52,6 @@ function mkcd() {
 #   Add path                                                       #
 #==================================================================#
 
-# Homebrew
-export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
-export PATH="/home/linuxbrew/.linuxbrew/sbin:$PATH"
-
-# VS Code
-export PATH="/snap/bin:$PATH"
-
-# asdf
-. /home/linuxbrew/.linuxbrew/opt/asdf/libexec/asdf.sh
 
 ### Remove duplicate paths ###
 export PATH=$(printf %s "$PATH" | awk -v RS=: -v ORS=: '!arr[$0]++')
