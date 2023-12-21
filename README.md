@@ -10,12 +10,6 @@
 
 **installed apps :**
 
-**See my [Brewfile](packages/shell/bin/linux_build/Brewfile)**
-
-**Packages described in Brewfile are managed by linuxbrew.**
-
-**When executing the script, the login user must be yourself (other than root).**
-
 <br>
 
 ```sh
