@@ -6,17 +6,6 @@
 
 <br>
 
-## Linux
-
-**installed apps :**
-
-<br>
-
-```sh
-curl -o - https://raw.githubusercontent.com/shingo-kumada/.dotfiles/master/packages/shell/bin/linux_build/linux_build.sh | bash
-```
-<br>
-
 ## **Zsh**
 
 **plugin manager :**
