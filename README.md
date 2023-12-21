@@ -2,11 +2,7 @@
 
 **dotfile managed whidth :**
 
-- **[asdf](https://asdf-vm.com/guide/introduction.html)**
-
 - **[GNU stow](https://www.gnu.org/software/stow/)**
-
-- **[Homebrew](https://github.com/Homebrew/homebrew-bundle)**
 
 <br>
 
