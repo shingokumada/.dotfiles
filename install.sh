@@ -6,7 +6,7 @@ set -e
 cd ~
 
 sudo apt update 
-sudo apt install -y vim tmux zsh
+sudo apt install -y neovim tmux zsh
 
 ln -s 
 
