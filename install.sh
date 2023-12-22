@@ -1,12 +1,11 @@
 #!/usr/bin/env bash
 
-# Abort the program if an error occurs during script execution.
 set -e
 
 cd ~
 
 sudo apt update 
-sudo apt install -y neovim tmux zsh
+sudo apt install -y vim tmux zsh
 
 ln -s 
 
