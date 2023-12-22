@@ -6,10 +6,7 @@ set -e
 cd ~
 
 sudo apt update 
-
-if [ ! -d ~/.dotfiles ]; then
-    git clone https://github.com/shingo-kumada/.dotfiles.git
-fi
+sudo apt install -y vim tmux zsh
 
 stow -R -v -d ~/.dotfiles/packages -t ~ neovim tmux zsh
 
