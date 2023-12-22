@@ -6,9 +6,9 @@ set -e
 cd ~
 
 sudo apt update 
-sudo apt install -y vim stow tmux zsh
+sudo apt install -y vim tmux zsh
 
-stow -R -v -d ~/.dotfiles/packages -t ~ neovim tmux zsh
+ln -s 
 
 ### install antigen ###
 if [ ! -f ~/.antigen/antigen.zsh ]; then
