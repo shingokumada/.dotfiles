@@ -1,9 +1,5 @@
 # **.dotfiles**
 
-**dotfile managed whidth :**
-
-- **[GNU stow](https://www.gnu.org/software/stow/)**
-
 <br>
 
 ## **Zsh**
