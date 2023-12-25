@@ -7,8 +7,6 @@ cd ~
 sudo apt update 
 sudo apt install -y vim tmux zsh
 
-ln -s 
-
 ### install antigen ###
 if [ ! -f ~/.antigen/antigen.zsh ]; then
     curl -L git.io/antigen > ~/.antigen/antigen.zsh
