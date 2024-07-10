@@ -6,11 +6,11 @@
 
 **configs**
 
-- **[bash](config/bash/.bashrc_origin)**
+- **[.bashrc_origin](config/bash/.bashrc_origin)**
 
-- **[neovim](config/neovim/init.vim)**
+- **[init.vim](config/neovim/init.vim)**
 
-- **[tmux](config/tmux/.tmux.conf)**
+- **[tmux.conf](config/tmux/.tmux.conf)**
 
 ## **How to use**
 
