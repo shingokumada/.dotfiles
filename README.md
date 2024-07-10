@@ -13,7 +13,7 @@
 
 ### **[ How to use ]**
 
-**There is a bash script in [manage](manage) that will set things up.**
+**There is a bash script in [manage](https://github.com/shingokumada/.dotfiles/blob/ubuntu/manage) that will set things up.**
 
 **There are several options in manage.**
 
