@@ -12,8 +12,6 @@
 
 - **[tmux](config/tmux/.tmux.conf)**
 
---------------------------------------------------------
-
 ## **How to use**
 
 ```shell
@@ -23,16 +21,12 @@ cd .dotfiles
 ./manage
 ```
 
---------------------------------------------------------
-
 ## **Bash**
 
 ```shell
 echo "source ~/.bashrc_origin" >> ~/.bashrc
 source ~/.bashrc
 ```
-
---------------------------------------------------------
 
 ## **Neovim**
 
@@ -46,8 +40,6 @@ source ~/.bashrc
 - **[fzf](https://github.com/junegunn/fzf)**
 - **[nerdtree](https://github.com/preservim/nerdtree)**
 - **[vim-horizon](https://github.com/ntk148v/vim-horizon)**
-
---------------------------------------------------------
 
 ## **LICENSE**
 
