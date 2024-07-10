@@ -47,11 +47,11 @@ $ source ~/.bashrc
 $ ./manage -nvim
 ```
 
-### **plugin manager**
+**[ plugin manager ]**
 
 - **[vim-plug](https://github.com/junegunn/vim-plug)**
 
-### **plugins**
+**[ plugins ]**
 
 - **[coc.nvim](https://github.com/neoclide/coc.nvim)**
 - **[fzf](https://github.com/junegunn/fzf)**

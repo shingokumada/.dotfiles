@@ -3,19 +3,19 @@
 ### infomation ###
 if [ $# -eq 0 ]; then
     printf '%s\n' \
-    'Enter your options.' \
-    'manage -help : infomation'
+        'Enter your options.' \
+        'manage -help : infomation'
     exit 1
 fi
 
 if [ $1 = '-help' ]; then
     printf '%s\n' \
-    '--------- opstions ----------' \
-    '-help : infomation' \
-    '-bash : Bash configuration' \
-    '-nvim : Neovim configration' \
-    '-tmux : Tmux configration' \
-    '-----------------------------'
+        '--------- opstions ----------' \
+        '-help : infomation' \
+        '-bash : Bash configuration' \
+        '-nvim : Neovim configration' \
+        '-tmux : Tmux configration' \
+        '-----------------------------'
 fi
 
 ### setting bash ###
@@ -29,7 +29,10 @@ fi
 
 ### setting nvim ###
 if [ $1 = '-nvim' ]; then
-    cd ~/.config/nvim/ 2> /dev/null
+    sudo apt update
+    sudo apt install neovim
+
+    cd ~/.config/nvim/ 2>/dev/null
     if [ $? = 1 ]; then
         mkdir ~/.config/nvim
         cd ~/.config/nvim/
@@ -44,6 +47,9 @@ fi
 
 ### setting tmux ###
 if [ $1 = '-tmux' ]; then
+    sudo apt update
+    sudo apt install tmux
+
     if [ -h ~/.tmux.conf ]; then
         :
     else
