@@ -2,21 +2,6 @@
 
 <br>
 
-## **Zsh**
-
-**plugin manager :**
-
-- **[antigen](https://github.com/zsh-users/antigen)**
-
-**plugin :**
-
-- **[command-not-found](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/command-not-found)**
-- **[git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git)**
-- **[pip](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pip)**
-- **[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)**
-
-<br>
-
 ## **Neovim**
 
 **plugin manager :**

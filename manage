@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+cd ~
+
+echo " " >> .bashrc
+echo "########## .bash_origin ########## " >> .bashrc
+echo " " >> .bashrc
+echo "source ~/.bashrc_origin" >> .bashrc
+
+if [ -h ~/.bashrc_origin ]; then
+    :
+else
+    ln -s ~/dotfiles/config/bash/.bashrc_origin ~/.bashrc_origin
+fi
+
+
