@@ -1,6 +1,38 @@
-# **dotfiles**
+# **.dotfiles**
 
-<br>
+**Configuration files for bash, neovim, and tmux are available.**
+
+**My operating environment is Ubuntu 22.04.4 LTS, and I have not tested it on other platforms.**
+
+**configs**
+
+- **[bash](config/bash/.bashrc_origin)**
+
+- **[neovim](config/neovim/init.vim)**
+
+- **[tmux](config/tmux/.tmux.conf)**
+
+--------------------------------------------------------
+
+## **How to use**
+
+```shell
+cd $HOME
+git clone https://github.com/shingokumada/.dotfiles.git
+cd .dotfiles
+./manage
+```
+
+--------------------------------------------------------
+
+## **Bash**
+
+```shell
+echo "source ~/.bashrc_origin" >> ~/.bashrc
+source ~/.bashrc
+```
+
+--------------------------------------------------------
 
 ## **Neovim**
 
@@ -15,7 +47,7 @@
 - **[nerdtree](https://github.com/preservim/nerdtree)**
 - **[vim-horizon](https://github.com/ntk148v/vim-horizon)**
 
-<br>
+--------------------------------------------------------
 
 ## **LICENSE**
 

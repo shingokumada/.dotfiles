@@ -1,10 +1,11 @@
+### alias ###
 alias relogin='exec $SHELL -l'
 alias vi='nvim'
 
-# 1password
+### 1password ###
 export SSH_AUTH_SOCK=~/.1password/agent.sock
 
-# add path managecommand
+### add path managecommand ###
 
 PATH="$PATH:$HOME/dotfiles"
 export PATH=`echo $PATH | tr ':' '\n' | uniq | awk '/\/[a-z]/' | tr '\n' ':' | sed 's/.\{1\}$//'`
