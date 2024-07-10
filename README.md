@@ -6,7 +6,7 @@
 
 ### **config files**
 - **[.bashrc_origin](https://github.com/shingokumada/.dotfiles/blob/ubuntu/config/bash/.bashrc_origin)**
-- **[init.vim](config/neovim/init.vim)**
+- **[init.vim](https://github.com/shingokumada/.dotfiles/blob/ubuntu/config/neovim/init.vim)**
 - **[.tmux.conf](config/tmux/.tmux.conf)**
 
 --------------------------------------------------------------------
