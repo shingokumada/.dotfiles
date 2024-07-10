@@ -4,14 +4,14 @@
 - **My operating environment is Ubuntu 22.04.4 LTS, and I have not tested it on other platforms.**
 - **If you like the contents of the config file below, please clone this repository.**
 
-**[ config files ]**
+### **config files**
 - **[.bashrc_origin](config/bash/.bashrc_origin)**
 - **[init.vim](config/neovim/init.vim)**
 - **[.tmux.conf](config/tmux/.tmux.conf)**
 
 --------------------------------------------------------------------
 
-## **How to use**
+### **[ How to use ]**
 
 **There is a bash script in [manage](manage) that will set things up.**
 
@@ -30,7 +30,7 @@ $ ./manage -help
 -----------------------------
 ```
 --------------------------------------------------------------------
-## **Bash**
+### **[ Bash ]**
 
 **When you run this script, the path to manage will be set.**
 
@@ -41,7 +41,7 @@ $ source ~/.bashrc
 ```
 --------------------------------------------------------------------
 
-## **Neovim**
+### **[ Neovim ]**
 
 ```shell
 $ ./manage -nvim
@@ -60,7 +60,7 @@ $ ./manage -nvim
 
 --------------------------------------------------------------------
 
-## **Tmux**
+### **[ Tmux ]**
 
 ```shell
 $ ./manage -tmux
@@ -70,6 +70,6 @@ $ tmux source ~/.tmux.conf
 
 --------------------------------------------------------------------
 
-## **LICENSE**
+### **[ LICENSE ]**
 
 ### **[MIT](LICENSE)**
