@@ -6,6 +6,5 @@ alias vi='nvim'
 export SSH_AUTH_SOCK=~/.1password/agent.sock
 
 ### add path managecommand ###
-
-PATH="$PATH:$HOME/dotfiles"
+PATH="$PATH:$HOME/.dotfiles"
 export PATH=`echo $PATH | tr ':' '\n' | uniq | awk '/\/[a-z]/' | tr '\n' ':' | sed 's/.\{1\}$//'`

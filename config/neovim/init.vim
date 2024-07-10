@@ -1,6 +1,6 @@
 " ================ Change Vim Options ================
 " command uses zsh
-set shell=/home/linuxbrew/.linuxbrew/bin/zsh
+
 " indent
 set shiftwidth=4
 " tab

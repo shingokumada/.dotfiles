@@ -1,11 +1,1 @@
-*.json
 
-*.log
-
-*info
-
-packages/neovim/.config/coc/
-packages/neovim/.config/htop/
-packages/neovim/.config/nvim/pack/
-packages/neovim/.config/Code/
-packages/neovim/.local/
