@@ -72,4 +72,4 @@ $ tmux source ~/.tmux.conf
 
 ### **[ LICENSE ]**
 
-### **[MIT](LICENSE)**
+### **[MIT](https://github.com/shingokumada/.dotfiles/blob/ubuntu/README.md)**
