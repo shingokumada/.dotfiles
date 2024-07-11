@@ -24,7 +24,7 @@ $ cd $HOME
 $ git clone https://github.com/shingokumada/.dotfiles.git
 $ cd .dotfiles
 $ ./manage -help
-manage [$1] [$2]
+$ manage [$1] [$2]
 ---------------------------------------------------------
 [$1]
 -help : infomation

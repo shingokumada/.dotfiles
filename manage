@@ -6,19 +6,19 @@ set -e
 if [ "$#" -eq 0 ]; then
     printf "%s\n" \
         "<< Error >> Enter your options."
-    cat "$HOME"/.dotfiles/docs/infomation
+    cat "$HOME"/.dotfiles/docs/man
     echo ""
 fi
 
 if [ "$1" = "--checkout" ]; then
     printf "%s\n" \
         "<< Error >> The command line arguments are incorrect."
-    cat "$HOME"/.dotfiles/docs/infomation
+    cat "$HOME"/.dotfiles/docs/man
     echo ""
 fi
 
 if [ "$1" = "-help" ]; then
-    cat "$HOME"/.dotfiles/docs/infomation
+    cat "$HOME"/.dotfiles/docs/man
     echo ""
 fi
 
