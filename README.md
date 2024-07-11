@@ -24,14 +24,17 @@ $ cd $HOME
 $ git clone https://github.com/shingokumada/.dotfiles.git
 $ cd .dotfiles
 $ ./manage -help
---------- opstions ----------
+--------------------------------------------------------------------
+[$1]
 -help : infomation
 -bash : Bash configuration
 -nvim : Neovim configration
 -tmux : Tmux configration
------------------------------
-```
+[$2]
+--checkout : Remove the symbolic link to the configfile.
 --------------------------------------------------------------------
+```
+
 ### **[ Bash ]**
 
 **When you run this script, the path to manage will be set.**
