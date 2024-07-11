@@ -1,0 +1,10 @@
+$ manage [$1] [$2]
+---------------------------------------------------------
+[$1]
+-help : infomation
+-bash : Bash configuration
+-nvim : Neovim configration
+-tmux : Tmux configration
+[$2]
+--checkout : Remove the symbolic link to the configfile.
+---------------------------------------------------------

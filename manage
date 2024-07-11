@@ -1,41 +1,49 @@
 #!/usr/bin/env bash
 
+set -e
+
 ### infomation ###
-if [ $# -eq 0 ]; then
-    printf '%s\n' \
-        'Enter your options.' \
-        'manage -help : infomation'
-    exit 1
+if [ "$#" -eq 0 ]; then
+    printf "%s\n" \
+        "<< Error >> Enter your options."
+    cat "$HOME"/.dotfiles/docs/infomation
+    echo ""
 fi
 
-if [ $1 = '-help' ]; then
-    printf '%s\n' \
-        '--------- opstions ----------' \
-        '-help : infomation' \
-        '-bash : Bash configuration' \
-        '-nvim : Neovim configration' \
-        '-tmux : Tmux configration' \
-        '-----------------------------'
+if [ "$1" = "--checkout" ]; then
+    printf "%s\n" \
+        "<< Error >> The command line arguments are incorrect."
+    cat "$HOME"/.dotfiles/docs/infomation
+    echo ""
+fi
+
+if [ "$1" = "-help" ]; then
+    cat "$HOME"/.dotfiles/docs/infomation
+    echo ""
 fi
 
 ### setting bash ###
-if [ $1 = '-bash' ]; then
+if [ "$1" = "-bash" ]; then
     if [ -h ~/.bashrc_origin ]; then
         :
     else
         ln -s ~/.dotfiles/config/bash/.bashrc_origin ~/.bashrc_origin
     fi
+
+    if [ "$2" = "--checkout" ]; then
+        rm ~/.bashrc_origin
+    fi
 fi
 
 ### setting nvim ###
-if [ $1 = '-nvim' ]; then
+if [ "$1" = "-nvim" ]; then
     sudo apt update
     sudo apt install neovim
 
-    cd ~/.config/nvim/ 2>/dev/null
-    if [ $? = 1 ]; then
+    cd ~/.config/nvim/ 2>/dev/null || exit
+    if [ "$?" = 1 ]; then
         mkdir ~/.config/nvim
-        cd ~/.config/nvim/
+        cd ~/.config/nvim/ || exit
     fi
 
     if [ -h ~/.config/nvim/init.vim ]; then
@@ -43,10 +51,16 @@ if [ $1 = '-nvim' ]; then
     else
         ln -s ~/.dotfiles/config/neovim/init.vim ~/.config/nvim/init.vim
     fi
+
+    if [ "$2" = "--checkout" ]; then
+        rm ~/.config/nvim/init.vim
+    else
+        :
+    fi
 fi
 
 ### setting tmux ###
-if [ $1 = '-tmux' ]; then
+if [ "$1" = "-tmux" ]; then
     sudo apt update
     sudo apt install tmux
 
@@ -54,5 +68,9 @@ if [ $1 = '-tmux' ]; then
         :
     else
         ln -s ~/.dotfiles/config/tmux/.tmux.conf ~/.tmux.conf
+    fi
+
+    if [ "$2" = "--checkout" ]; then
+        rm ~/.tmux.conf
     fi
 fi

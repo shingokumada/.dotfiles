@@ -3,15 +3,17 @@
 - **Configuration files for bash, neovim, and tmux are available.**
 - **My operating environment is Ubuntu 22.04.4 LTS, and I have not tested it on other platforms.**
 - **If you like the contents of the config file below, please clone this repository.**
+- **manage is written as a bash script. (GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu))**
 
-### **config files**
-- **[.bashrc_origin](https://github.com/shingokumada/.dotfiles/blob/ubuntu/config/bash/.bashrc_origin)**
-- **[init.vim](https://github.com/shingokumada/.dotfiles/blob/ubuntu/config/neovim/init.vim)**
-- **[.tmux.conf](https://github.com/shingokumada/.dotfiles/blob/ubuntu/config/tmux/.tmux.conf)**
+**[ config files ]**
+
+- **bash => [.bashrc_origin](https://github.com/shingokumada/.dotfiles/blob/ubuntu/config/bash/.bashrc_origin)**
+- **neovim => [init.vim](https://github.com/shingokumada/.dotfiles/blob/ubuntu/config/neovim/init.vim)**
+- **tmux => [.tmux.conf](https://github.com/shingokumada/.dotfiles/blob/ubuntu/config/tmux/.tmux.conf)**
 
 --------------------------------------------------------------------
 
-### **[ How to use ]**
+## **How to use**
 
 **There is a bash script in [manage](https://github.com/shingokumada/.dotfiles/blob/ubuntu/manage) that will set things up.**
 
