@@ -1,5 +1,7 @@
+## composition
+
 ```txt
-"."
+".(project_root)"
 ├── "./LICENSE"
 ├── "./README.md"
 ├── "./config"
