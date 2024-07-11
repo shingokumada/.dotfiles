@@ -24,7 +24,8 @@ $ cd $HOME
 $ git clone https://github.com/shingokumada/.dotfiles.git
 $ cd .dotfiles
 $ ./manage -help
---------------------------------------------------------------------
+manage [$1] [$2]
+---------------------------------------------------------
 [$1]
 -help : infomation
 -bash : Bash configuration
@@ -32,7 +33,7 @@ $ ./manage -help
 -tmux : Tmux configration
 [$2]
 --checkout : Remove the symbolic link to the configfile.
---------------------------------------------------------------------
+---------------------------------------------------------
 ```
 
 ### **[ Bash ]**
