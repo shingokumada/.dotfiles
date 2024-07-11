@@ -14,7 +14,7 @@
 
 --------------------------------------------------------------------
 
-## **How to use**
+### **[ How to use ]**
 
 **There is a bash script in [manage](https://github.com/shingokumada/.dotfiles/blob/ubuntu/manage) that will set things up.**
 
