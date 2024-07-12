@@ -1,4 +1,4 @@
-# **[.dotfiles](https://github.com/shingokumada/.dotfiles)**
+# **.dotfiles**
 
 - **Configuration files for bash, neovim, and tmux are available.**
 - **My operating environment is Ubuntu 22.04.4 LTS, and I have not tested it on other platforms.**
