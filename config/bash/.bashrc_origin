@@ -1,11 +1,13 @@
-#!/usr/bin/env bash
-source $HOME/.dotfiles/lib/functions.sh
+### .bashrc_origin is sourced from .bashrc. ###
+
+source "$HOME"/.dotfiles/lib/path.sh
+source "$HOME"/.dotfiles/lib/packages.sh
 
 alias check='shellcheck'
 alias relogin='exec $SHELL -l'
 alias vi='nvim'
 
 ### add path manage ###
-PATH="$PATH:$HOME/.dotfiles"
-eliminate_duplicate_paths
+PATH="$PATH:$HOME/.dotfiles/bin:$HOME/.dotfiles/bin"
+remove_duplicates
 export PATH

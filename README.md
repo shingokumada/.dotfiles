@@ -4,7 +4,7 @@
 - **My operating environment is Ubuntu 22.04.4 LTS, and I have not tested it on other platforms.**
 - **If you like the contents of the config file below, please clone this repository.**
 - **manage is written as a bash script. (GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu))**
-- **See the link for the project [configuration](https://github.com/shingokumada/.dotfiles/blob/ubuntu/docs/composition.md).**
+- **See the link for the project [configuration](https://github.com/shingokumada/.dotfiles/blob/ubuntu/docs/AboutDevelopmentsition.md).**
 
 **[ config files ]**
 
@@ -16,14 +16,15 @@
 
 ### **[ How to use ]**
 
-**There is a bash script in [manage](https://github.com/shingokumada/.dotfiles/blob/ubuntu/manage) that will set things up.**
+**There is a bash script in [manage](https://github.com/shingokumada/.dotfiles/blob/ubuntu/bin/manage) that will set things up.**
 
 **There are several options in manage.**
 
 ```shell
 $ cd $HOME
 $ git clone https://github.com/shingokumada/.dotfiles.git
-$ cd .dotfiles
+$ cd .dotfiles/bin
+$ chmod 700 ./manage
 $ ./manage -help
 $ manage [$1] [$2]
 ---------------------------------------------------------

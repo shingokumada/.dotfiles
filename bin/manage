@@ -1,18 +1,12 @@
 #!/usr/bin/env bash
-
 set -e
+
+source "$HOME"/.dotfiles/lib/packages.sh
 
 ### infomation ###
 if [ "$#" -eq 0 ]; then
     printf "%s\n" \
         "<< Error >> Enter your options."
-    cat "$HOME"/.dotfiles/docs/infomation
-    echo ""
-fi
-
-if [ "$1" = "--checkout" ]; then
-    printf "%s\n" \
-        "<< Error >> The command line arguments are incorrect."
     cat "$HOME"/.dotfiles/docs/infomation
     echo ""
 fi
@@ -24,9 +18,7 @@ fi
 
 ### setting bash ###
 if [ "$1" = "-bash" ]; then
-    if [ -h ~/.bashrc_origin ]; then
-        :
-    else
+    if [ ! -h ~/.bashrc_origin ]; then
         ln -s ~/.dotfiles/config/bash/.bashrc_origin ~/.bashrc_origin
     fi
 
@@ -37,36 +29,34 @@ fi
 
 ### setting nvim ###
 if [ "$1" = "-nvim" ]; then
-    sudo apt update
-    sudo apt install neovim
-
-    cd ~/.config/nvim/ 2>/dev/null || exit
-    if [ "$?" = 1 ]; then
-        mkdir ~/.config/nvim
-        cd ~/.config/nvim/ || exit
+    STATUS=$(is_installed nvim)
+    if [ "$STATUS" = 1 ]; then
+        sudo apt update && sudo apt install neovim
     fi
 
-    if [ -h ~/.config/nvim/init.vim ]; then
-        :
-    else
-        ln -s ~/.dotfiles/config/neovim/init.vim ~/.config/nvim/init.vim
+    cd ~/.config/nvim/ 2>/dev/null
+    if [ "$?" = 1 ]; then
+        mkdir ~/.config/nvim
+        cd ~/.config/nvim/
+    fi
+
+    if [ ! -h ~/.config/nvim/init.vim ]; then
+        ln -s ~/.dotfiles/config/bash/.bashrc_origin ~/.bashrc_origin
     fi
 
     if [ "$2" = "--checkout" ]; then
         rm ~/.config/nvim/init.vim
-    else
-        :
     fi
 fi
 
 ### setting tmux ###
 if [ "$1" = "-tmux" ]; then
-    sudo apt update
-    sudo apt install tmux
+    STATUS=$(is_installed tmux)
+    if [ "$STATUS" = 1 ]; then
+        sudo apt update && sudo apt install tmux
+    fi
 
-    if [ -h ~/.tmux.conf ]; then
-        :
-    else
+    if [ ! -h ~/.tmux.conf ]; then
         ln -s ~/.dotfiles/config/tmux/.tmux.conf ~/.tmux.conf
     fi
 
