@@ -8,7 +8,7 @@
 
 **[ config files ]**
 
-- **bash => [.bashrc_origin](https://github.com/shingokumada/.dotfiles/blob/ubuntu/config/bash/.bashrc_origin)**
+- **bash => [.bash_aliases](https://github.com/shingokumada/.dotfiles/blob/ubuntu/config/bash/.bashrc_origin)**
 - **neovim => [init.vim](https://github.com/shingokumada/.dotfiles/blob/ubuntu/config/neovim/init.vim)**
 - **tmux => [.tmux.conf](https://github.com/shingokumada/.dotfiles/blob/ubuntu/config/tmux/.tmux.conf)**
 
@@ -44,7 +44,6 @@ $ manage [$1] [$2]
 
 ```shell
 $ ./manage -bash
-$ echo "source ~/.bashrc_origin" >> ~/.bashrc
 $ source ~/.bashrc
 ```
 --------------------------------------------------------------------

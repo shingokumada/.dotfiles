@@ -19,12 +19,12 @@ fi
 
 ### setting bash ###
 if [ "$1" = "-bash" ]; then
-    if [ ! -h ~/.bashrc_origin ]; then
-        ln -s ~/.dotfiles/config/bash/.bashrc_origin ~/.bashrc_origin
+    if [ ! -h ~/.bashrc_aliases ]; then
+        ln -s ~/.dotfiles/config/bash/.bash_aliases ~/.bash_aliases
     fi
 
     if [ "$2" = "--checkout" ]; then
-        rm ~/.bashrc_origin
+        rm ~/.bash_aliases
     fi
 fi
 
@@ -42,7 +42,7 @@ if [ "$1" = "-nvim" ]; then
     fi
 
     if [ ! -h ~/.config/nvim/init.vim ]; then
-        ln -s ~/.dotfiles/config/bash/.bashrc_origin ~/.bashrc_origin
+        ln -s ~/.dotfiles/config/nvim/init.vim ~/.config/nvim/init.vim
     fi
 
     if [ "$2" = "--checkout" ]; then

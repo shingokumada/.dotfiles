@@ -8,7 +8,7 @@
 │   └── "manage"
 ├── "config"
 │   ├── "bash"
-│   │    └── ".bashrc_origin"
+│   │    └── ".bash_aliases"
 │   ├── "neovim"
 │   │    └── "init.vim"
 │   └── "tmux"

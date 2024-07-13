@@ -1,9 +1,8 @@
-### .bashrc_origin is sourced from .bashrc. ###
-
 source "$HOME"/.dotfiles/lib/path.sh
 source "$HOME"/.dotfiles/lib/packages.sh
 
 alias check='shellcheck'
+alias cl='clear'
 alias relogin='exec $SHELL -l'
 alias vi='nvim'
 
