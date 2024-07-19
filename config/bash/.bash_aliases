@@ -3,6 +3,7 @@ source "$HOME"/.dotfiles/lib/packages.sh
 
 alias check='shellcheck'
 alias cl='clear'
+alias ipv4='ip -br -4 -c address'
 alias relogin='exec $SHELL -l'
 alias vi='nvim'
 

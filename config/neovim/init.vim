@@ -1,6 +1,6 @@
 " ================ Change Vim Options ================
-" command uses zsh
-
+" shell
+set shell=/bin/bash
 " indent
 set shiftwidth=4
 " tab
@@ -22,19 +22,4 @@ set number
 
 " ================ Use Vim Plugins ================
 call plug#begin()
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'ntk148v/vim-horizon'
-Plug 'preservim/nerdtree'
 call plug#end()
-
-" if you don't set this option, this color might not correct
-set termguicolors
-
-colorscheme horizon
-" lightline
-let g:lightline = {}
-let g:lightline.colorscheme = 'horizon'
-
-" or this line
-let g:lightline = {'colorscheme' : 'horizon'}
